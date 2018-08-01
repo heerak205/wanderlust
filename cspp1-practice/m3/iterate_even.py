@@ -1,9 +1,3 @@
-"""
-iterate even
-"""
-i=2
-while i<=10:
+for i in range(2,12,2):
     print(i)
-    i=i+2
-
 print("Goodbye!")
