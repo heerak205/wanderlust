@@ -1,6 +1,4 @@
 """
-1st program
-
+BASIC PROGRAM
 """
-
-print("hello world")
+print"hello world"
