@@ -10,11 +10,12 @@
 # output: 6.999999999999991
 
 
-
-epsilon = 0.01
-x_num = int(input())
-guess_val = x_num/2.0
-while abs(guess_val*guess_val - x_num) >= epsilon:
-    guess_val = guess_val - (((guess_val**2) - x_num)/(2*guess_val))
-print(str(guess_val))
+def main():
+    epsilon = 0.01
+    x_num = int(input())
+    guess_val = x_num/2.0
+    while abs(guess_val*guess_val - x_num) >= epsilon:
+        guess_val = guess_val - (((guess_val**2) - x_num)/(2*guess_val))
+    print(str(guess_val))
+main()
 
