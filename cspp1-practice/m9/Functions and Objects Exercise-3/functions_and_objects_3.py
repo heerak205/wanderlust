@@ -5,7 +5,7 @@
 def apply_to_each(L, f):
     for i in range(len(L)):
         L[i] = f(L[i])
-        return(L)
+    return(L)
 def square(a):
     return(a*a)
     
