@@ -33,7 +33,7 @@ def create_social_network(data):
     '''
     var_input = int(input())
     dict_a = {}
-    for i in range(var_input):
+    for _ in range(var_input):
         data = input('')
         list_of_dict = data.split(' follows ')
         if list_of_dict[0] not in dict_a:
