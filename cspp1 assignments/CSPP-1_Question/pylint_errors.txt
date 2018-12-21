@@ -1,0 +1,33 @@
+************* Module Sudoku
+C:  2, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:  5, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
+C: 10, 0: Exactly one space required after comma
+        for i in range(0,len(sudoku),9):
+                        ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+        for i in range(0,len(sudoku),9):
+                                    ^ (bad-whitespace)
+C: 22, 0: Exactly one space required before assignment
+    check= [False]*9
+         ^ (bad-whitespace)
+C: 40, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+W: 45, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W: 46, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+W: 47, 0: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+W: 48, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+W: 50, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C: 60, 0: Trailing whitespace (trailing-whitespace)
+C: 64, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  1, 0: Missing function docstring (missing-docstring)
+R:  2, 4: Unnecessary "else" after "return" (no-else-return)
+W: 22, 4: Redefining name 'check' from outer scope (line 1) (redefined-outer-name)
+C: 21, 0: Missing function docstring (missing-docstring)
+C: 29,19: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
+C: 46,19: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
+C: 53, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.11/10 (previous run: 5.11/10, +0.00)
+
