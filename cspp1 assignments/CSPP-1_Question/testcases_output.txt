@@ -1,9 +1,11 @@
 ########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
+
 Your Output: 
 Given sudoku is solved
 ----------------------------------------
+
 ########## Testcase 1: Passed ##########
 Expected Output: 
 7
@@ -15,6 +17,7 @@ Expected Output:
 7
 7
 7
+
 Your Output: 
 7
 7
@@ -26,6 +29,7 @@ Your Output:
 7
 7
 ----------------------------------------
+
 ########## Testcase 2: Passed ##########
 Expected Output: 
 1
@@ -37,6 +41,7 @@ Expected Output:
 7
 8
 9
+
 Your Output: 
 1
 2
@@ -48,26 +53,31 @@ Your Output:
 8
 9
 ----------------------------------------
+
 ########## Testcase 3: Failed ##########
 Expected Output: 
 5
 6
 2
+
 Your Output: 
 2
 5
 6
 ----------------------------------------
+
 ########## Testcase 4: Passed ##########
 Expected Output: 
 4
 6
 9
+
 Your Output: 
 4
 6
 9
 ----------------------------------------
+
 ########## Testcase 5: Failed ##########
 Expected Output: 
 34
@@ -79,6 +89,7 @@ Expected Output:
 59
 19
 15
+
 Your Output: 
 1
 2
@@ -90,6 +101,7 @@ Your Output:
 8
 9
 ----------------------------------------
+
 ########## Testcase 6: Passed ##########
 Expected Output: 
 2
@@ -101,6 +113,7 @@ Expected Output:
 9
 6
 3
+
 Your Output: 
 2
 1
@@ -112,6 +125,7 @@ Your Output:
 6
 3
 ----------------------------------------
+
 ########## Testcase 7: Failed ##########
 Expected Output: 
 7
@@ -123,6 +137,7 @@ Expected Output:
 4
 8
 9
+
 Your Output: 
 2
 6
@@ -134,6 +149,7 @@ Your Output:
 8
 9
 ----------------------------------------
+
 ########## Testcase 8: Failed ##########
 Expected Output: 
 1
@@ -145,6 +161,7 @@ Expected Output:
 3
 7
 6
+
 Your Output: 
 1
 2
@@ -156,6 +173,7 @@ Your Output:
 8
 9
 ----------------------------------------
+
 ########## Testcase 9: Failed ##########
 Expected Output: 
 378
@@ -167,6 +185,7 @@ Expected Output:
 469
 469
 469
+
 Your Output: 
 1
 2
@@ -178,6 +197,7 @@ Your Output:
 8
 9
 ----------------------------------------
+
 ########## Testcase 10: Passed ##########
 Expected Output: 
 1
@@ -189,6 +209,7 @@ Expected Output:
 9
 6
 8
+
 Your Output: 
 1
 7
@@ -200,6 +221,7 @@ Your Output:
 6
 8
 ----------------------------------------
+
 ########## Testcase 11: Passed ##########
 Expected Output: 
 6
@@ -211,6 +233,7 @@ Expected Output:
 2
 7
 4
+
 Your Output: 
 6
 1
@@ -222,6 +245,7 @@ Your Output:
 7
 4
 ----------------------------------------
+
 ########## Testcase 12: Failed ##########
 Expected Output: 
 1
@@ -233,6 +257,7 @@ Expected Output:
 4
 6
 8
+
 Your Output: 
 1
 2
@@ -244,6 +269,7 @@ Your Output:
 6
 8
 ----------------------------------------
+
 ########## Testcase 13: Failed ##########
 Expected Output: 
 258
@@ -255,6 +281,7 @@ Expected Output:
 469
 469
 469
+
 Your Output: 
 2
 5
@@ -266,6 +293,7 @@ Your Output:
 6
 9
 ----------------------------------------
+
 ########## Testcase 14: Failed ##########
 Expected Output: 
 1
@@ -286,6 +314,7 @@ Expected Output:
 469
 469
 469
+
 Your Output: 
 1
 2
@@ -306,6 +335,7 @@ Your Output:
 6
 9
 ----------------------------------------
+
 ########## Testcase 15: Failed ##########
 Expected Output: 
 12357
@@ -340,27 +370,35 @@ Expected Output:
 23689
 23689
 23689
+
 Your Output: 
 Invalid Sudoku:Duplicate values
 ----------------------------------------
+
 ########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
+
 Your Output: 
 Invalid Sudoku:Duplicate values
 ----------------------------------------
+
 ########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
+
 Your Output: 
 Invalid input
 ----------------------------------------
+
 ########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
+
 Your Output: 
 Invalid Sudoku:Duplicate values
 ----------------------------------------
+
 ########## Testcase 19: Failed ##########
 Expected Output: 
 1679
@@ -427,6 +465,7 @@ Expected Output:
 235689
 235689
 235689
+
 Your Output: 
 1
 2
@@ -493,12 +532,15 @@ Your Output:
 8
 9
 ----------------------------------------
+
 ########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
+
 Your Output: 
 Invalid input
 ----------------------------------------
+
 ########## Testcase 21: Failed ##########
 Expected Output: 
 124
@@ -552,6 +594,7 @@ Expected Output:
 2356
 2356
 1346
+
 Your Output: 
 1
 2
@@ -605,6 +648,7 @@ Your Output:
 5
 6
 ----------------------------------------
+
 ########## Testcase 22: Failed ##########
 Expected Output: 
 2369
@@ -665,6 +709,7 @@ Expected Output:
 4567
 4567
 4567
+
 Your Output: 
 1
 2
@@ -725,6 +770,7 @@ Your Output:
 8
 9
 ----------------------------------------
+
 ########## Testcase 23: Failed ##########
 Expected Output: 
 2
@@ -751,6 +797,7 @@ Expected Output:
 69
 26
 6
+
 Your Output: 
 1
 2
@@ -777,6 +824,7 @@ Your Output:
 2
 6
 ----------------------------------------
+
 ########## Testcase 24: Failed ##########
 Expected Output: 
 2
@@ -816,6 +864,7 @@ Expected Output:
 128
 129
 19
+
 Your Output: 
 1
 2
@@ -855,3 +904,4 @@ Your Output:
 8
 9
 ----------------------------------------
+
