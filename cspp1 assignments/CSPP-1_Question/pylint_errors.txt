@@ -1,33 +1,162 @@
-************* Module Sudoku
-C:  2, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
-C:  5, 0: Unnecessary parens after 'elif' keyword (superfluous-parens)
-C: 10, 0: Exactly one space required after comma
-        for i in range(0,len(sudoku),9):
-                        ^ (bad-whitespace)
-C: 10, 0: Exactly one space required after comma
-        for i in range(0,len(sudoku),9):
-                                    ^ (bad-whitespace)
-C: 22, 0: Exactly one space required before assignment
-    check= [False]*9
-         ^ (bad-whitespace)
-C: 40, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
-W: 45, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-W: 46, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-W: 47, 0: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
-W: 48, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-W: 50, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-C: 60, 0: Trailing whitespace (trailing-whitespace)
-C: 64, 0: Final newline missing (missing-final-newline)
-C:  1, 0: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
-C:  1, 0: Missing module docstring (missing-docstring)
-C:  1, 0: Missing function docstring (missing-docstring)
-R:  2, 4: Unnecessary "else" after "return" (no-else-return)
-W: 22, 4: Redefining name 'check' from outer scope (line 1) (redefined-outer-name)
-C: 21, 0: Missing function docstring (missing-docstring)
-C: 29,19: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
-C: 46,19: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
-C: 53, 0: Missing function docstring (missing-docstring)
+************* Module sudoku
+W: 12, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 13, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 14, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 15, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 16, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 17, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 18, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 19, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 20, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 21, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 31, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 32, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 33, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 34, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 34, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+W: 35, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 36, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 37, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 38, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 39, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 40, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 42, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 48, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 49, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 50, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 50, 0: No space allowed before bracket
+	for i in range (9):
+                ^ (bad-whitespace)
+W: 51, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 52, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 53, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 54, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 56, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 64, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 65, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 66, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 67, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 68, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 69, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 70, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 71, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 72, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 72, 0: Exactly one space required after comma
+		for j in range(3,6):
+                  ^ (bad-whitespace)
+W: 73, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 74, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 75, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 76, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 77, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 77, 0: Exactly one space required after comma
+		for j in range(6,9):
+                  ^ (bad-whitespace)
+W: 78, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 79, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 81, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 82, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 82, 0: Exactly one space required after comma
+	for i in range(3,6):
+                 ^ (bad-whitespace)
+W: 83, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 83, 0: No space allowed before bracket
+		for j in range (3):
+                 ^ (bad-whitespace)
+W: 84, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 85, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 86, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 87, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 87, 0: Exactly one space required after comma
+	for i in range(3,6):
+                 ^ (bad-whitespace)
+W: 88, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 88, 0: Exactly one space required after comma
+		for j in range(3,6):
+                  ^ (bad-whitespace)
+W: 89, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 90, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 91, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 92, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 92, 0: Exactly one space required after comma
+	for i in range(3,6):
+                 ^ (bad-whitespace)
+W: 93, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 93, 0: Exactly one space required after comma
+		for j in range(6,9):
+                  ^ (bad-whitespace)
+W: 94, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 95, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 96, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 97, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 97, 0: Exactly one space required after comma
+	for i in range(6,9):
+                 ^ (bad-whitespace)
+W: 98, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 99, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:100, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:101, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:102, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:102, 0: Exactly one space required after comma
+	for i in range(6,9):
+                 ^ (bad-whitespace)
+W:103, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:103, 0: Exactly one space required after comma
+		for j in range(3,6):
+                  ^ (bad-whitespace)
+W:104, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:105, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:106, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:107, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:107, 0: Exactly one space required after comma
+	for i in range(6,9):
+                 ^ (bad-whitespace)
+W:108, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:108, 0: Exactly one space required after comma
+		for j in range(6,9):
+                  ^ (bad-whitespace)
+W:109, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:110, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:111, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:115, 0: Trailing whitespace (trailing-whitespace)
+W:123, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:124, 0: Trailing whitespace (trailing-whitespace)
+W:133, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:134, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:135, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:136, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:137, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:138, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:139, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:140, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:143, 0: Final newline missing (missing-final-newline)
+C: 11, 0: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
+C: 11, 0: Missing function docstring (missing-docstring)
+C: 14, 1: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 18, 1: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+W: 24,-1: String statement has no effect (pointless-string-statement)
+C: 25, 0: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
+C: 25, 0: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C: 25, 0: Missing function docstring (missing-docstring)
+W: 46,-1: String statement has no effect (pointless-string-statement)
+C: 47, 0: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
+C: 47, 0: Argument name "q" doesn't conform to snake_case naming style (invalid-name)
+C: 47, 0: Missing function docstring (missing-docstring)
+W: 60,-1: String statement has no effect (pointless-string-statement)
+C: 61, 0: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
+C: 61, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 61, 0: Missing function docstring (missing-docstring)
+R: 61, 0: Too many branches (18/12) (too-many-branches)
+W:121,-1: String statement has no effect (pointless-string-statement)
+C:122, 0: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
+C:122, 0: Missing function docstring (missing-docstring)
+W:129,-1: String statement has no effect (pointless-string-statement)
+C:132, 0: Missing function docstring (missing-docstring)
+C:133, 1: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+C:134, 1: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:138, 8: Catching too general exception Exception (broad-except)
+C:138, 1: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
-------------------------------------------------------------------
-Your code has been rated at 5.11/10 (previous run: 5.11/10, +0.00)
+-------------------------------------------------------------------
+Your code has been rated at -3.16/10 (previous run: 5.11/10, -8.27)
 
