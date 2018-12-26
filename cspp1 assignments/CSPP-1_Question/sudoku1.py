@@ -131,27 +131,59 @@ def getGridValues(s):
 	list6.append(list5)
 	return list6
 	#print(list6)
-
+def getparticulatgrid(i, j, list6):
+	particulargrid = []
+	if (i >= 0 and i < 3) and (j >= 0 and j < 3):
+		return list6[0]
+	if (i >= 0 and i < 3) and (j >= 3 and j < 6):
+		return list6[1]
+	if (i >= 0 and i < 3) and (j >= 6 and j < 9):
+		return list6[2]
+	if (i >= 3 and i < 6) and (j >= 0 and j < 3):
+		return list6[3]
+	if (i >= 3 and i < 6) and (j >= 3 and j < 6):
+		return list6[4]
+	if (i >= 3 and i < 6) and (j >= 6 and j < 9):
+		return list6[5]
+	if (i >= 6 and i < 9) and (j >= 0 and j < 3):
+		return list6[6]
+	if (i >= 6 and i < 9) and (j >= 3 and j < 6):
+		return list6[7]
+	if (i >= 6 and i < 9) and (j >= 6 and j < 9):
+		return list6[8]
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues(r, s, t):
+	# print(r)
+	# print(s)
+	# print(t)
+	for row in range(len(r)):
+		for each in range(len(r)):
+			if r[row][each] == ".":
+				eachrow = converttoint(r[row])
+				eachcol = converttoint(s[each])
+				subgrid1 = converttoint(getparticulatgrid(row, each, getGridValues(r)))
+				# print(eachrow)
+				# print(eachcol)
+				# print(subgrid1)
+				possibilities(eachrow, eachcol, subgrid1)
+def possibilities(eachrow, eachcol, subgrid1):
 	list7 = [1,2,3,4,5,6,7,8,9]
 	list8 = []
-	rowval = r
-	colval = s
-	gridval = t
-	print(rowval)
-	print(colval)
-	print(gridval)
-	# for row in range(len(rowval)):
-	# 	for each in range(len(row)):
-	# 		if rowval[row][each] == ".":
-	# 			eachrow = r[row]
-	# 			eachcol = s[each]
-	# 			subgrid = t[each]
+	for no in list7:
+		if no not in eachrow:
+			if no not in eachcol:
+		 		if no not in subgrid1:
+		 			list8.append(no)
+	str1 = ""
+	str1 = list(map(str, list8))
+	str1 = ''.join(str1)
+	print(str1)
+
+
 	
 
 """
@@ -159,6 +191,12 @@ Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 	
 """
+def converttoint(strlist):
+	intlist = ''.join(strlist)
+	intlist = intlist.replace(".", "")
+	intlist = list(intlist)
+	inti = list(map(int, intlist))
+	return inti
 
 def main():
 	q = list(input())
@@ -174,7 +212,7 @@ def main():
 		print(e)
 	t = getGridValues(r)
 	# print(t)
-	u = possibleValues(r, s, t)
+	possibleValues(r, s, t)
 
 if __name__ == "__main__":
     main()
