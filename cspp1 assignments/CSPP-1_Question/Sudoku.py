@@ -11,14 +11,24 @@ In this method :
 def validateSudoku(sudoku):
 	if len(sudoku) != 81:
 		raise Exception("Invalid input")
+	elif '.' not in sudoku:
+		raise Exception("Given sudoku is solved")
 	p = getRowValues(sudoku)
-	for i in range(9):
-		if len(set(p[i])) != 9:
-			raise Exception("Invalid input")
-	q = getColumnValues(p)
-	for i in range(9):
-		if len(set(q[i])) != 9:
-			raise Exception("Invalid input")
+	r = p.remove('.')
+	s = set(r)
+	q = getColumnValues(sudoku)
+	t = q.remove('.')
+	u = set(t)
+	if len(r) != len(s) or len(t) != len(u):
+		raise Exception("Invalid Sudoku:Duplicate values")
+	
+	# for i in range(9):
+	# 	if len(set(p[i])) != 9:
+	# 		raise Exception("Invalid input")
+	# q = getColumnValues(p)
+	# for i in range(9):
+	# 	if len(set(q[i])) != 9:
+	# 		raise Exception("Invalid input")
 """
 This  method should retunn all the values present in the ith row
 """
@@ -37,8 +47,9 @@ def getRowValues(r):
 		if(i%9 == 0 and i != 0):
 			list4.append(list3)
 			list3 = []
+		# print(i)
 		list3.append(r[i])
-	#print(list4)
+	# print(list4)
 	return list4
 
 """
@@ -52,7 +63,7 @@ def getColumnValues(q):
 			list1.append(q[j][i])
 		list2.append(list1)
 		list1 = []
-	#print(list2)
+	# print(list2)
 	return list2
 
 """
@@ -111,33 +122,42 @@ def getGridValues(s):
 	return list6
 	#print(list6)
 
-
-		
-
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
-def possibleValues():
+def possibleValues(r, s, t):
+	# list7 = [1,2,3,4,5,6,7,8,9]
+	# list8 = []
+	# for row in range(len(rowval)):
+	# 	for each in range(len(row)):
+	# 		if rowval[row][each] == ".":
+	# 			rowVales = r[row]
+	# 			colval =  s[each]
 	pass
-	
+
 """
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
-
+	
 """
-
 
 def main():
 	q = list(input())
+	# print(len(q))
+
 	r = getRowValues(q)
-	getColumnValues(r)
+	# print(r)
+	s = getColumnValues(r)
+	# print(s)
 	try:
-		validateSudoku(q)
+		validateSudoku(r, s)
 	except Exception as e:
 		print(e)
-	getGridValues(r)
+	t = getGridValues(r)
+	# print(t)
+	#u = possibleValues(r, s, t)
 
 if __name__ == "__main__":
     main()
