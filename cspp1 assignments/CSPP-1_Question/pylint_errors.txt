@@ -250,10 +250,10 @@ C:204, 0: Missing function docstring (missing-docstring)
 C:205, 1: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
 C:208, 1: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
 C:210, 1: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:212, 1: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
 W:216, 8: Catching too general exception Exception (broad-except)
-C:214, 2: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
 C:216, 1: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.08/10 (previous run: -3.75/10, -0.33)
+Your code has been rated at -4.08/10 (previous run: -4.08/10, +0.00)
 

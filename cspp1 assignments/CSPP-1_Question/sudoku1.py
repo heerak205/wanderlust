@@ -209,9 +209,9 @@ def main():
 	# print(r)
 	s = getColumnValues(r)
 	# print(s)
+	t = getGridValues(r)
 	try:
 		validateSudoku(q)
-		t = getGridValues(r)
 		possibleValues(r, s, t)
 	except Exception as e:
 		print(e)
