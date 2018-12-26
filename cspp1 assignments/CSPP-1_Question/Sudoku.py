@@ -22,7 +22,7 @@ def validateSudoku(sudoku):
 		s = set(r)
 		if len(r) != len(s):
 			raise Exception("Invalid Sudoku:Duplicate values")
-	q = getColumnValues(sudoku)
+	q = getColumnValues(p)
 	for i in range(9):
 		if '.' in q[i]:
 			r = q[i].remove('.')
@@ -138,13 +138,17 @@ You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues(r, s, t):
-	# list7 = [1,2,3,4,5,6,7,8,9]
-	# list8 = []
-	# for row in range(len(rowval)):
-	# 	for each in range(len(row)):
-	# 		if rowval[row][each] == ".":
-	# 			rowVales = r[row]
-	# 			colval =  s[each]
+	list7 = [1,2,3,4,5,6,7,8,9]
+	list8 = []
+	rowval = r
+	colval = s
+	gridval = t
+	for row in range(len(rowval)):
+		for each in range(len(row)):
+			if rowval[row][each] == ".":
+				eachrow = r[row]
+				eachcol = s[each]
+				subgrid = t[each]
 	pass
 
 """

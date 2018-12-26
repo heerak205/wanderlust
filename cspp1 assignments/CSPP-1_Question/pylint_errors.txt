@@ -131,16 +131,51 @@ C:129, 0: Exactly one space required after comma
 W:130, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:131, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:132, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:141, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:141, 0: Exactly one space required after comma
+	list7 = [1,2,3,4,5,6,7,8,9]
+           ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+	list7 = [1,2,3,4,5,6,7,8,9]
+             ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+	list7 = [1,2,3,4,5,6,7,8,9]
+               ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+	list7 = [1,2,3,4,5,6,7,8,9]
+                 ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+	list7 = [1,2,3,4,5,6,7,8,9]
+                   ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+	list7 = [1,2,3,4,5,6,7,8,9]
+                     ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+	list7 = [1,2,3,4,5,6,7,8,9]
+                       ^ (bad-whitespace)
+C:141, 0: Exactly one space required after comma
+	list7 = [1,2,3,4,5,6,7,8,9]
+                         ^ (bad-whitespace)
+W:142, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:143, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:144, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:145, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:146, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:147, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:148, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W:157, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W:160, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W:162, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:149, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:150, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:151, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:152, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:161, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:164, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W:165, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:166, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W:167, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:168, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C:173, 0: Final newline missing (missing-final-newline)
+W:169, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:170, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:171, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:172, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:177, 0: Final newline missing (missing-final-newline)
 C: 11, 0: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 C: 11, 0: Missing function docstring (missing-docstring)
 C: 16, 1: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
@@ -170,20 +205,26 @@ C:140, 0: Argument name "r" doesn't conform to snake_case naming style (invalid-
 C:140, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
 C:140, 0: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
 C:140, 0: Missing function docstring (missing-docstring)
-W:140,19: Unused argument 'r' (unused-argument)
-W:140,22: Unused argument 's' (unused-argument)
-W:140,25: Unused argument 't' (unused-argument)
-W:154,-1: String statement has no effect (pointless-string-statement)
-C:156, 0: Missing function docstring (missing-docstring)
-C:157, 1: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
-C:160, 1: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-C:162, 1: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-W:166, 8: Catching too general exception Exception (broad-except)
-C:166, 1: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-C:168, 1: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-W:162, 1: Unused variable 's' (unused-variable)
-W:168, 1: Unused variable 't' (unused-variable)
+C:146, 1: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+W:152, 1: Unnecessary pass statement (unnecessary-pass)
+W:141, 1: Unused variable 'list7' (unused-variable)
+W:142, 1: Unused variable 'list8' (unused-variable)
+W:144, 1: Unused variable 'colval' (unused-variable)
+W:145, 1: Unused variable 'gridval' (unused-variable)
+W:149, 4: Unused variable 'eachrow' (unused-variable)
+W:150, 4: Unused variable 'eachcol' (unused-variable)
+W:151, 4: Unused variable 'subgrid' (unused-variable)
+W:158,-1: String statement has no effect (pointless-string-statement)
+C:160, 0: Missing function docstring (missing-docstring)
+C:161, 1: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+C:164, 1: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:166, 1: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:170, 8: Catching too general exception Exception (broad-except)
+C:170, 1: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:172, 1: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:166, 1: Unused variable 's' (unused-variable)
+W:172, 1: Unused variable 't' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.44/10 (previous run: -4.65/10, +0.21)
+Your code has been rated at -5.21/10 (previous run: -4.44/10, -0.77)
 

@@ -245,9 +245,9 @@ Expected Output:
 Invalid input
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 173, in <module>
+  File "sudoku.py", line 177, in <module>
     main()
-  File "sudoku.py", line 160, in main
+  File "sudoku.py", line 164, in main
     r = getRowValues(q)
   File "sudoku.py", line 61, in getRowValues
     list3.append(r[i])
@@ -333,9 +333,9 @@ Expected Output:
 Invalid input
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 173, in <module>
+  File "sudoku.py", line 177, in <module>
     main()
-  File "sudoku.py", line 160, in main
+  File "sudoku.py", line 164, in main
     r = getRowValues(q)
   File "sudoku.py", line 61, in getRowValues
     list3.append(r[i])
