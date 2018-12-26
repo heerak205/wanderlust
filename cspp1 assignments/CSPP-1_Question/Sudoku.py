@@ -16,13 +16,13 @@ def validateSudoku(sudoku):
 	p = getRowValues(sudoku)
 	if '.' in p:
 		r = p.remove('.')
-	elif :
+	else:
 		r = p
 	s = set(r)
 	q = getColumnValues(sudoku)
 	if '.' in q:
 		t = q.remove('.')
-	elif: 
+	else: 
 		t = q
 	u = set(t)
 	if len(r) != len(s) or len(t) != len(u):
