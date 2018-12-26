@@ -161,10 +161,10 @@ def main():
 	# print(r)
 	s = getColumnValues(r)
 	# print(s)
-	# try:
-	validateSudoku(q)
-	# except Exception as e:
-		# print(e)
+	try:
+		validateSudoku(q)
+	except Exception as e:
+		print(e)
 	t = getGridValues(r)
 	# print(t)
 	#u = possibleValues(r, s, t)
