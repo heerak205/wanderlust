@@ -152,7 +152,7 @@ def main():
 	s = getColumnValues(r)
 	# print(s)
 	try:
-		validateSudoku(r, s)
+		validateSudoku(q)
 	except Exception as e:
 		print(e)
 	t = getGridValues(r)

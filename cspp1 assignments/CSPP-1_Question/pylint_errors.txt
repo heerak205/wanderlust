@@ -167,11 +167,11 @@ C:147, 1: Variable name "q" doesn't conform to snake_case naming style (invalid-
 C:150, 1: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
 C:152, 1: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 W:156, 8: Catching too general exception Exception (broad-except)
-E:155, 2: Too many positional arguments for function call (too-many-function-args)
 C:156, 1: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 C:158, 1: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:152, 1: Unused variable 's' (unused-variable)
 W:158, 1: Unused variable 't' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.80/10 (previous run: -3.16/10, -1.64)
+Your code has been rated at -4.40/10 (previous run: -4.80/10, +0.40)
 

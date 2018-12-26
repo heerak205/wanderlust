@@ -1,8 +1,8 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+Given sudoku is solved
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -16,7 +16,7 @@ Expected Output:
 7
 7
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -30,7 +30,7 @@ Expected Output:
 8
 9
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -38,7 +38,7 @@ Expected Output:
 6
 2
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -46,7 +46,7 @@ Expected Output:
 6
 9
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -60,7 +60,7 @@ Expected Output:
 19
 15
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -74,7 +74,7 @@ Expected Output:
 6
 3
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -88,7 +88,7 @@ Expected Output:
 8
 9
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 8: Failed ##########
 Expected Output: 
@@ -102,7 +102,7 @@ Expected Output:
 7
 6
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 9: Failed ##########
 Expected Output: 
@@ -116,7 +116,7 @@ Expected Output:
 469
 469
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 10: Failed ##########
 Expected Output: 
@@ -130,7 +130,7 @@ Expected Output:
 6
 8
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 11: Failed ##########
 Expected Output: 
@@ -144,7 +144,7 @@ Expected Output:
 7
 4
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 12: Failed ##########
 Expected Output: 
@@ -158,7 +158,7 @@ Expected Output:
 6
 8
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 13: Failed ##########
 Expected Output: 
@@ -172,7 +172,7 @@ Expected Output:
 469
 469
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 14: Failed ##########
 Expected Output: 
@@ -195,7 +195,7 @@ Expected Output:
 469
 469
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 15: Failed ##########
 Expected Output: 
@@ -232,13 +232,13 @@ Expected Output:
 23689
 23689
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 16: Failed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 17: Failed ##########
 Expected Output: 
@@ -257,7 +257,7 @@ IndexError: list index out of range
 Expected Output: 
 Invalid Sudoku:Duplicate values
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 19: Failed ##########
 Expected Output: 
@@ -326,7 +326,7 @@ Expected Output:
 235689
 235689
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 20: Failed ##########
 Expected Output: 
@@ -395,7 +395,7 @@ Expected Output:
 2356
 1346
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 22: Failed ##########
 Expected Output: 
@@ -458,7 +458,7 @@ Expected Output:
 4567
 4567
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 23: Failed ##########
 Expected Output: 
@@ -487,7 +487,7 @@ Expected Output:
 26
 6
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
 ########## Testcase 24: Failed ##########
 Expected Output: 
@@ -529,5 +529,5 @@ Expected Output:
 129
 19
 Your Output: 
-validateSudoku() takes 1 positional argument but 2 were given
+list.remove(x): x not in list
 ----------------------------------------
