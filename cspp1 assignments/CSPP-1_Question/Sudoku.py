@@ -16,12 +16,14 @@ def validateSudoku(sudoku):
 	p = getRowValues(sudoku)
 	if '.' in p:
 		r = p.remove('.')
-	elif r = p
+	elif :
+		r = p
 	s = set(r)
 	q = getColumnValues(sudoku)
 	if '.' in q:
 		t = q.remove('.')
-	elif t = q
+	elif: 
+		t = q
 	u = set(t)
 	if len(r) != len(s) or len(t) != len(u):
 		raise Exception("Invalid Sudoku:Duplicate values")
