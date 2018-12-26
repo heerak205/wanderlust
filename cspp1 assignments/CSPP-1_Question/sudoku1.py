@@ -15,8 +15,11 @@ def validateSudoku(sudoku):
 		raise Exception("Given sudoku is solved")
 	p = getRowValues(sudoku)
 	for i in range(9):
+		# print(i)
+		# print("length")
 		if '.' in p[i]:
 			r = p[i].remove('.')
+
 		else:
 			r = p[i]
 		s = set(r)
@@ -132,7 +135,7 @@ def getGridValues(s):
 	return list6
 	#print(list6)
 def getparticulatgrid(i, j, list6):
-	particulargrid = []
+	#particulargrid = []
 	if (i >= 0 and i < 3) and (j >= 0 and j < 3):
 		return list6[0]
 	if (i >= 0 and i < 3) and (j >= 3 and j < 6):

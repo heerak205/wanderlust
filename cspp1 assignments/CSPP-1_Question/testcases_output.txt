@@ -409,11 +409,11 @@ Expected Output:
 Invalid input
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku1.py", line 218, in <module>
+  File "sudoku1.py", line 221, in <module>
     main()
-  File "sudoku1.py", line 205, in main
+  File "sudoku1.py", line 208, in main
     r = getRowValues(q)
-  File "sudoku1.py", line 61, in getRowValues
+  File "sudoku1.py", line 64, in getRowValues
     list3.append(r[i])
 IndexError: list index out of range
 ----------------------------------------
@@ -562,11 +562,11 @@ Expected Output:
 Invalid input
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku1.py", line 218, in <module>
+  File "sudoku1.py", line 221, in <module>
     main()
-  File "sudoku1.py", line 205, in main
+  File "sudoku1.py", line 208, in main
     r = getRowValues(q)
-  File "sudoku1.py", line 61, in getRowValues
+  File "sudoku1.py", line 64, in getRowValues
     list3.append(r[i])
 IndexError: list index out of range
 ----------------------------------------
