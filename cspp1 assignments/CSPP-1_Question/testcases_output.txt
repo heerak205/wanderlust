@@ -2,14 +2,10 @@
 Expected Output: 
 Given sudoku is solved
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 15, in validateSudoku
-    raise Exception("Given sudoku is solved")
-Exception: Given sudoku is solved
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -23,14 +19,10 @@ Expected Output:
 7
 7
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -44,14 +36,10 @@ Expected Output:
 8
 9
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -59,14 +47,10 @@ Expected Output:
 6
 2
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -74,14 +58,10 @@ Expected Output:
 6
 9
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -95,14 +75,10 @@ Expected Output:
 19
 15
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -116,14 +92,10 @@ Expected Output:
 6
 3
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -137,14 +109,10 @@ Expected Output:
 8
 9
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 8: Failed ##########
 Expected Output: 
@@ -158,14 +126,10 @@ Expected Output:
 7
 6
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 9: Failed ##########
 Expected Output: 
@@ -179,14 +143,10 @@ Expected Output:
 469
 469
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 10: Failed ##########
 Expected Output: 
@@ -200,14 +160,10 @@ Expected Output:
 6
 8
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 11: Failed ##########
 Expected Output: 
@@ -221,14 +177,10 @@ Expected Output:
 7
 4
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 12: Failed ##########
 Expected Output: 
@@ -242,14 +194,10 @@ Expected Output:
 6
 8
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 13: Failed ##########
 Expected Output: 
@@ -263,14 +211,10 @@ Expected Output:
 469
 469
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 14: Failed ##########
 Expected Output: 
@@ -293,14 +237,10 @@ Expected Output:
 469
 469
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 15: Failed ##########
 Expected Output: 
@@ -337,53 +277,37 @@ Expected Output:
 23689
 23689
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 16: Failed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 17: Failed ##########
 Expected Output: 
 Invalid input
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 156, in main
-    r = getRowValues(q)
-  File "sudoku.py", line 57, in getRowValues
-    list3.append(r[i])
-IndexError: list index out of range
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 18: Failed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 19: Failed ##########
 Expected Output: 
@@ -452,27 +376,19 @@ Expected Output:
 235689
 235689
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 20: Failed ##########
 Expected Output: 
 Invalid input
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 156, in main
-    r = getRowValues(q)
-  File "sudoku.py", line 57, in getRowValues
-    list3.append(r[i])
-IndexError: list index out of range
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 21: Failed ##########
 Expected Output: 
@@ -528,14 +444,10 @@ Expected Output:
 2356
 1346
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 22: Failed ##########
 Expected Output: 
@@ -598,14 +510,10 @@ Expected Output:
 4567
 4567
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 23: Failed ##########
 Expected Output: 
@@ -634,14 +542,10 @@ Expected Output:
 26
 6
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
 ########## Testcase 24: Failed ##########
 Expected Output: 
@@ -683,12 +587,8 @@ Expected Output:
 129
 19
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 169, in <module>
-    main()
-  File "sudoku.py", line 161, in main
-    validateSudoku(q)
-  File "sudoku.py", line 21, in validateSudoku
-    s = set(r)
-TypeError: unhashable type: 'list'
+  File "sudoku.py", line 17
+    for i in range 9:
+                   ^
+SyntaxError: invalid syntax
 ----------------------------------------
