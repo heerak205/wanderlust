@@ -14,7 +14,7 @@ def validateSudoku(sudoku):
 	elif '.' not in sudoku:
 		raise Exception("Given sudoku is solved")
 	p = getRowValues(sudoku)
-	for i in range 9:
+	for i in range(9):
 		if '.' in p[i]:
 			r = p[i].remove('.')
 		else:
@@ -23,7 +23,7 @@ def validateSudoku(sudoku):
 		if len(r) != len(s):
 			raise Exception("Invalid Sudoku:Duplicate values")
 	q = getColumnValues(sudoku)
-	for i in range 9:
+	for i in range(9):
 		if '.' in q[i]:
 			r = q[i].remove('.')
 		else:
