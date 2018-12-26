@@ -134,7 +134,7 @@ def getGridValues(s):
 	list6.append(list5)
 	return list6
 	#print(list6)
-def getparticulatgrid(i, j, list6):
+def gaetparticulatgrid(i, j, list6):
 	#particulargrid = []
 	if (i >= 0 and i < 3) and (j >= 0 and j < 3):
 		return list6[0]
@@ -211,11 +211,11 @@ def main():
 	# print(s)
 	try:
 		validateSudoku(q)
+		t = getGridValues(r)
+		possibleValues(r, s, t)
 	except Exception as e:
 		print(e)
-	t = getGridValues(r)
 	# print(t)
-	possibleValues(r, s, t)
 
 if __name__ == "__main__":
     main()
