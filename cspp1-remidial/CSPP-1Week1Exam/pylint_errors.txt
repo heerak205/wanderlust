@@ -1,6 +1,7 @@
 ************* Module html2
 W:  2, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  4, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:  5, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  8, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  9, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 10, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -26,33 +27,64 @@ W: 24, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 25, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 28, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 29, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 29, 0: Unnecessary parens after 'while' keyword (superfluous-parens)
-C: 29, 0: Exactly one space required around comparison
+W: 30, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 30, 0: Unnecessary parens after 'while' keyword (superfluous-parens)
+C: 30, 0: Exactly one space required around comparison
 	while(i<len(arg)-1):
         ^ (bad-whitespace)
-W: 30, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 31, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 31, 0: Unnecessary parens after 'while' keyword (superfluous-parens)
 W: 32, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 32, 0: Unnecessary parens after 'while' keyword (superfluous-parens)
 W: 33, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 34, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 35, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 36, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 37, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 37, 0: Unnecessary parens after 'while' keyword (superfluous-parens)
-W: 38, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 38, 0: Exactly one space required before assignment
+W: 39, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 39, 0: Unnecessary parens after 'while' keyword (superfluous-parens)
+W: 40, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 40, 0: Exactly one space required before assignment
 				res= res + arg[i]
        ^ (bad-whitespace)
-W: 39, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W: 40, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 43, 0: Final newline missing (missing-final-newline)
+W: 41, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 42, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 42, 0: Exactly one space required around comparison
+			if len(res)<=16:
+              ^^ (bad-whitespace)
 W: 43, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 44, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 45, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 47, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 48, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 48, 0: Unnecessary parens after 'while' keyword (superfluous-parens)
+C: 48, 0: Exactly one space required around comparison
+	while(i<len(list1)-1):
+        ^ (bad-whitespace)
+W: 49, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 50, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 51, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 52, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 53, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 54, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 55, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 56, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 57, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 58, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 59, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 60, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 62, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 63, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 64, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 65, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 69, 0: Final newline missing (missing-final-newline)
+W: 69, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C:  1, 0: Missing module docstring (missing-docstring)
 C:  1, 0: Missing function docstring (missing-docstring)
 C:  7, 0: Missing function docstring (missing-docstring)
 C: 27, 0: Missing function docstring (missing-docstring)
+C: 56, 1: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C: 58, 1: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
 
-------------------------------------
-Your code has been rated at -2.70/10
+--------------------------------------------------------------------
+Your code has been rated at -2.50/10 (previous run: -2.70/10, +0.20)
 

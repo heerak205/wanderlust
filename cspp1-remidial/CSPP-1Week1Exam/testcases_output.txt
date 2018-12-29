@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 ./webpage5_files/thewashingtonpost-white-2x.png
 https://www.washingtonpost.com/pb/resources/img/washingtonpost_black_32.png
@@ -133,6 +133,27 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
 65
+#000
+#004681
+#1955a5
+#E10C16
+#FF0000
+#c39190
+#d3d3d3
+#d5d5d5
+#e1e1e1
+#efdede
+#f0f0f0
+#f1f1f1
+#fff
+black
+inherit
+rgb(247,247,247)
+rgba(0,0,0,0.7)
+rgba(0,0,0,.6)
+rgba(0,0,0,0.4)
+transparent
+20
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -224,6 +245,27 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
 65
+#000
+#004681
+#1955a5
+#E10C16
+#FF0000
+#c39190
+#d3d3d3
+#d5d5d5
+#e1e1e1
+#efdede
+#f0f0f0
+#f1f1f1
+#fff
+black
+inherit
+rgb(247,247,247)
+rgba(0,0,0,0.7)
+rgba(0,0,0,.6)
+rgba(0,0,0,0.4)
+transparent
+20
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -358,4 +400,25 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
 65
+#000
+#004681
+#1955a5
+#E10C16
+#FF0000
+#c39190
+#d3d3d3
+#d5d5d5
+#e1e1e1
+#efdede
+#f0f0f0
+#f1f1f1
+#fff
+black
+inherit
+rgb(247,247,247)
+rgba(0,0,0,0.7)
+rgba(0,0,0,.6)
+rgba(0,0,0,0.4)
+transparent
+20
 ----------------------------------------
