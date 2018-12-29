@@ -1,8 +1,10 @@
 def main():
 	html = list(open("webpage5.html").read().replace(" ", "").replace("\n", ""))
 	# print(html)
-	image(html)
-	background(html)
+	if input() == "image":
+		image(html)
+	if input() == "background":
+		background(html)
 
 def image(arg):
 	i = 0
