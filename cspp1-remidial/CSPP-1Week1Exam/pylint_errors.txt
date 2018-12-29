@@ -1,8 +1,6 @@
 ************* Module html2
 W:  2, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  4, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W:  5, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W:  6, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  7, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  8, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 11, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -90,5 +88,5 @@ C: 59, 1: Variable name "l" doesn't conform to snake_case naming style (invalid-
 C: 61, 1: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.54/10 (previous run: -2.42/10, -0.12)
+Your code has been rated at -2.62/10 (previous run: -2.54/10, -0.08)
 
