@@ -1,7 +1,6 @@
 ************* Module html2
 W:  2, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  4, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W:  7, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  8, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 11, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 12, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -82,11 +81,12 @@ W: 72, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C:  1, 0: Missing module docstring (missing-docstring)
 C:  1, 0: Missing function docstring (missing-docstring)
 C:  4, 1: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:  4, 1: Unused variable 'p' (unused-variable)
 C: 10, 0: Missing function docstring (missing-docstring)
 C: 30, 0: Missing function docstring (missing-docstring)
 C: 59, 1: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
 C: 61, 1: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.62/10 (previous run: -2.54/10, -0.08)
+Your code has been rated at -2.83/10 (previous run: -2.62/10, -0.21)
 

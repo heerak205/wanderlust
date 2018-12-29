@@ -4,8 +4,8 @@ def main():
 	p = input()
 	#if p == "image":
 		#image(html)
-	if p == "background":
-		background(html)
+	#if p == "background":
+	background(html)
 
 def image(arg):
 	i = 0
