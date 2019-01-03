@@ -1,4 +1,4 @@
-************* Module reservation1
+************* Module reservation2
 W:  2, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  3, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  4, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -33,7 +33,7 @@ W: 30, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 31, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 32, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 33, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W: 36, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 34, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 37, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 38, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 39, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -47,18 +47,19 @@ W: 46, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 47, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 48, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 49, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 52, 0: Final newline missing (missing-final-newline)
-W: 52, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 50, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 53, 0: Final newline missing (missing-final-newline)
+W: 53, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C:  1, 0: Missing module docstring (missing-docstring)
 C:  1, 0: Missing function docstring (missing-docstring)
 C:  2, 1: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 C:  9, 2: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
-C: 19, 9: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C: 15, 9: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
 R:  7, 1: Too many nested blocks (6/5) (too-many-nested-blocks)
-C: 30,16: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
-C: 46, 3: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 31,16: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+C: 47, 3: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
 R:  1, 0: Too many branches (18/12) (too-many-branches)
 
---------------------------------------------------------------------
-Your code has been rated at -2.39/10 (previous run: -2.44/10, +0.05)
+------------------------------------
+Your code has been rated at -2.34/10
 
