@@ -9,16 +9,15 @@ def main():
 		b = input().split(" ")
 		if len(b) == 2:
 			if b[0] == 'reserve':
-				
-				if roomno <= limit+1:
+				if roomno > limit:
+					print("All Rooms are reserved")
+				elif roomno <= limit+1:
 					for m in range(1, limit+1):
 						if m not in hotdict.keys():
 							hotdict.update({m:b[1]})
 							print(hotdict[m] + " " + str(m))
 							roomno = roomno + 1
 							break
-				elif roomno > limit:
-					print("All Rooms are reserved")
 				else:
 					if roomno not in hotdict.keys():
 						hotdict.update({roomno:b[1]})
