@@ -243,11 +243,11 @@ kumar 4
 swathi 5
 kumar now has no reservations
 Traceback (most recent call last):
-  File "reservation1.py", line 50, in <module>
+  File "reservation1.py", line 51, in <module>
     main()
-  File "reservation1.py", line 30, in main
-    p = hotdict.keys(b[1])
-TypeError: keys() takes no arguments (1 given)
+  File "reservation1.py", line 32, in main
+    del hotdict[p]
+TypeError: unhashable type: 'list'
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -298,9 +298,9 @@ kumar 4
 kumar 5
 kumar now has no reservations
 Traceback (most recent call last):
-  File "reservation1.py", line 50, in <module>
+  File "reservation1.py", line 51, in <module>
     main()
-  File "reservation1.py", line 30, in main
-    p = hotdict.keys(b[1])
-TypeError: keys() takes no arguments (1 given)
+  File "reservation1.py", line 32, in main
+    del hotdict[p]
+TypeError: unhashable type: 'list'
 ----------------------------------------
