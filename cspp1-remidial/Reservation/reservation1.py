@@ -16,7 +16,7 @@ def main():
 					print(hotdict[roomno] + " " + str(roomno))
 					roomno = roomno + 1
 				else:
-					for m in range(1, 6):
+					for m in range(1, limit+1):
 						if m not in hotdict.keys():
 							hotdict.update({m:b[1]})
 							print(hotdict[m] + " " + str(m))

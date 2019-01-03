@@ -53,5 +53,5 @@ C: 40, 3: Variable name "p" doesn't conform to snake_case naming style (invalid-
 R:  1, 0: Too many branches (15/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.50/10 (previous run: -3.24/10, +0.74)
+Your code has been rated at -2.50/10 (previous run: -2.50/10, +0.00)
 
