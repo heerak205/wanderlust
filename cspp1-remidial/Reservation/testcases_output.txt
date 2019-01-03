@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -11,12 +11,18 @@ karan 3
 kalyani 4
 rajiv 5
 Your Output: 
-  File "reservation1.py", line 31
-    if >5:
-       ^
-SyntaxError: invalid syntax
+rehana 1
+karan 3
+murthy 2
+rajiv 5
+kalyani 4
+rehana 1
+murthy 2
+karan 3
+kalyani 4
+rajiv 5
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -30,12 +36,19 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
-  File "reservation1.py", line 31
-    if >5:
-       ^
-SyntaxError: invalid syntax
+kiran 2
+murthy 1
+rajiv 3
+kalyani 4
+kumar 5
+All Rooms are reserved
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -50,12 +63,20 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
-  File "reservation1.py", line 31
-    if >5:
-       ^
-SyntaxError: invalid syntax
+kiran 2
+murthy 1
+rajiv 3
+kalyani 4
+kumar 5
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -70,10 +91,18 @@ kalyani 3
 kumar 4
 swathi 5
 Your Output: 
-  File "reservation1.py", line 31
-    if >5:
-       ^
-SyntaxError: invalid syntax
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kumar 4
+swathi 5
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -94,10 +123,19 @@ swathi 5
 alekhya 6
 manasa 7
 Your Output: 
-  File "reservation1.py", line 31
-    if >5:
-       ^
-SyntaxError: invalid syntax
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kumar 4
+swathi 5
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -135,10 +173,24 @@ manohar 8
 swetha 9
 reddy 10
 Your Output: 
-  File "reservation1.py", line 31
-    if >5:
-       ^
-SyntaxError: invalid syntax
+kiran 2
+murthy 1
+kumar 3
+Room is already reserved
+murthy 1
+kiran 2
+kumar 3
+alekhya 6
+manasa 5
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kumar 3
+manasa 5
+alekhya 6
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -170,10 +222,30 @@ swathi 5
 alekhya 6
 kumar 7
 Your Output: 
-  File "reservation1.py", line 31
-    if >5:
-       ^
-SyntaxError: invalid syntax
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kumar 4
+swathi 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -211,8 +283,32 @@ manohar 8
 swetha 9
 reddy 10
 Your Output: 
-  File "reservation1.py", line 31
-    if >5:
-       ^
-SyntaxError: invalid syntax
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kumar 4
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
 ----------------------------------------
