@@ -30,6 +30,7 @@ def main():
 				for each in hotdict.keys():
 					if hotdict.get(each) == b[1]:
 						del hotdict[each]
+						break
 
 				# print("Room is already reserved")
 		if len(b) == 3:

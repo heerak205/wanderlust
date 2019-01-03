@@ -242,12 +242,20 @@ kalyani 3
 kumar 4
 swathi 5
 kumar now has no reservations
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 30, in main
-    for each in hotdict.keys():
-RuntimeError: dictionary changed size during iteration
+murthy 1
+kiran 2
+kalyani 3
+swathi 5
+Added 2 more rooms
+alekhya 6
+manasa 7
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+swathi 5
+alekhya 6
+manasa 7
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -297,10 +305,25 @@ kalyani 3
 kumar 4
 kumar 5
 kumar now has no reservations
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 30, in main
-    for each in hotdict.keys():
-RuntimeError: dictionary changed size during iteration
+murthy 1
+kiran 2
+kalyani 3
+kumar 5
+Added 5 more rooms
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 5
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
 ----------------------------------------
