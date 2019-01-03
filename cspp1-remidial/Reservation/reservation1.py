@@ -12,9 +12,9 @@ def main():
 		if len(b) == 2:
 			if roomno>5:
 				print("All Rooms are reserved")
-			# elif roomno not in hotdict.keys():
-			# 	hotdict.update({roomno:b[1]})
-			# 	print(hotdict[roomno] + " " + str(roomno))
+			elif roomno not in hotdict.keys():
+				hotdict.update({roomno:b[1]})
+				print(hotdict[roomno] + " " + str(roomno))
 			else:
 				m = roomno - 1
 				n = roomno + 1
@@ -24,9 +24,9 @@ def main():
 				elif m+1 not in hotdict.keys():
 					hotdict.update({m+1:b[1]})
 					print(hotdict[m+1] + " " + str(m+1))
-				elif n not in hotdict.keys():
-					hotdict.update({n:b[1]})
-					print(hotdict[n] + " " + str(n))
+				# elif n not in hotdict.keys():
+				# 	hotdict.update({n:b[1]})
+				# 	print(hotdict[n] + " " + str(n))
 				else:
 					print("Room is already reserved")
 		if len(b) == 3:

@@ -11,23 +11,23 @@ karan 3
 kalyani 4
 rajiv 5
 Your Output: 
-rehana 0
+rehana 1
 karan 3
 murthy 2
 rajiv 5
 kalyani 4
-rehana 0
+rehana 1
 murthy 2
 karan 3
 kalyani 4
 rajiv 5
-rehana 0
+rehana 1
 murthy 2
 karan 3
 kalyani 4
 rajiv 5
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -52,6 +52,12 @@ kiran 2
 rajiv 3
 kalyani 4
 kumar 5
+Traceback (most recent call last):
+  File "reservation1.py", line 51, in <module>
+    main()
+  File "reservation1.py", line 11, in main
+    b = input().split(" ")
+EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -75,6 +81,17 @@ kalyani 4
 kumar 5
 All Rooms are reserved
 All rooms are reserved
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
+Traceback (most recent call last):
+  File "reservation1.py", line 51, in <module>
+    main()
+  File "reservation1.py", line 11, in main
+    b = input().split(" ")
+EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -94,10 +111,20 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
+kalyani 4
+kumar 5
 All Rooms are reserved
 All rooms are reserved
+murthy 1
+kiran 2
+kalyani 4
+kumar 5
+Traceback (most recent call last):
+  File "reservation1.py", line 51, in <module>
+    main()
+  File "reservation1.py", line 11, in main
+    b = input().split(" ")
+EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -121,10 +148,22 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
+kalyani 4
+kumar 5
 All Rooms are reserved
 All Rooms are reserved
+All rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 4
+kumar 5
+Traceback (most recent call last):
+  File "reservation1.py", line 51, in <module>
+    main()
+  File "reservation1.py", line 11, in main
+    b = input().split(" ")
+EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -169,6 +208,22 @@ Room is already reserved
 murthy 1
 kiran 2
 kumar 3
+All Rooms are reserved
+All rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kumar 3
+Traceback (most recent call last):
+  File "reservation1.py", line 51, in <module>
+    main()
+  File "reservation1.py", line 11, in main
+    b = input().split(" ")
+EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -203,13 +258,32 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
+kalyani 4
+kumar 5
 All Rooms are reserved
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
+kalyani 4
+kumar 5
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 4
+kumar 5
+All Rooms are reserved
+All rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 4
+kumar 5
+Traceback (most recent call last):
+  File "reservation1.py", line 51, in <module>
+    main()
+  File "reservation1.py", line 11, in main
+    b = input().split(" ")
+EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -250,11 +324,34 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
+kalyani 4
+kumar 5
 All Rooms are reserved
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
+kalyani 4
+kumar 5
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 4
+kumar 5
+All Rooms are reserved
+All rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 4
+kumar 5
+Traceback (most recent call last):
+  File "reservation1.py", line 51, in <module>
+    main()
+  File "reservation1.py", line 11, in main
+    b = input().split(" ")
+EOFError: EOF when reading a line
 ----------------------------------------
