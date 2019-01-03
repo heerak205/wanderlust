@@ -24,7 +24,7 @@ def main():
 							break
 			if b[0] == "build":
 				limit = limit + int(b[1])
-				print("Added" + " " + b[0] + " " + "more rooms")
+				print("Added" + " " + b[1] + " " + "more rooms")
 
 				# print("Room is already reserved")
 		if len(b) == 3:
