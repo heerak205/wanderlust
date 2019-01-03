@@ -22,7 +22,7 @@ def main():
 							print(hotdict[m] + " " + str(m))
 							roomno = roomno + 1
 							break
-			if b[1] == "build":
+			if b[0] == "build":
 				limit = limit + int(b[1])
 				print("Added" + " " + b[0] + " " + "more rooms")
 
