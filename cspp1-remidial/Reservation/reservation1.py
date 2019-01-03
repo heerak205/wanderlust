@@ -11,7 +11,7 @@ def main():
 		b = input().split(" ")
 		if len(b) == 2:
 			if roomno>5:
-				print("All rooms are reserved")
+				print("All Rooms are reserved")
 			# elif roomno not in hotdict.keys():
 			# 	hotdict.update({roomno:b[1]})
 			# 	print(hotdict[roomno] + " " + str(roomno))
