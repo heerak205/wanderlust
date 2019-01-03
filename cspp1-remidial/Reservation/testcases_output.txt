@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -16,18 +16,13 @@ karan 3
 murthy 2
 rajiv 5
 kalyani 4
-rehana 1
-murthy 2
-karan 3
-kalyani 4
-rajiv 5
 rehana 1
 murthy 2
 karan 3
 kalyani 4
 rajiv 5
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -52,12 +47,6 @@ kiran 2
 rajiv 3
 kalyani 4
 kumar 5
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 11, in main
-    b = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -86,12 +75,6 @@ kiran 2
 rajiv 3
 kalyani 4
 kumar 5
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 11, in main
-    b = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -119,12 +102,6 @@ murthy 1
 kiran 2
 kalyani 4
 kumar 5
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 11, in main
-    b = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -158,12 +135,6 @@ murthy 1
 kiran 2
 kalyani 4
 kumar 5
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 11, in main
-    b = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -218,12 +189,6 @@ All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 11, in main
-    b = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -278,12 +243,6 @@ murthy 1
 kiran 2
 kalyani 4
 kumar 5
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 11, in main
-    b = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -348,10 +307,4 @@ murthy 1
 kiran 2
 kalyani 4
 kumar 5
-Traceback (most recent call last):
-  File "reservation1.py", line 51, in <module>
-    main()
-  File "reservation1.py", line 11, in main
-    b = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
