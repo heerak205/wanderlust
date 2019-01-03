@@ -9,9 +9,7 @@ def main():
 		b = input().split(" ")
 		if len(b) == 2:
 			if b[0] == 'reserve':
-				if roomno >= limit:
-					limit = limit + 1
-				elif roomno > limit:
+				if roomno > limit:
 					print("All Rooms are reserved")
 				elif roomno <= limit+1:
 					for m in range(1, limit+1):
