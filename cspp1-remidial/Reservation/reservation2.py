@@ -11,7 +11,7 @@ def main():
 			if b[0] == 'reserve':
 				if roomno > limit:
 					print("All Rooms are reserved")
-				if roomno <= limit:
+				if roomno <= limit+1:
 					for m in range(1, limit+1):
 						if m not in hotdict.keys():
 							hotdict.update({m:b[1]})
