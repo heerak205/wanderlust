@@ -25,6 +25,10 @@ def main():
 			if b[0] == "build":
 				limit = limit + int(b[1])
 				print("Added" + " " + b[1] + " " + "more rooms")
+			if b[0] == "cancel":
+				print(b[1] + " now has no reservations")
+				p = hotdict.keys(b[1])
+				del hotdict[p]
 
 				# print("Room is already reserved")
 		if len(b) == 3:
