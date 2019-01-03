@@ -245,9 +245,9 @@ kumar now has no reservations
 Traceback (most recent call last):
   File "reservation1.py", line 51, in <module>
     main()
-  File "reservation1.py", line 32, in main
-    del hotdict[p]
-TypeError: unhashable type: 'list'
+  File "reservation1.py", line 30, in main
+    for each in hotdict.keys():
+RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -300,7 +300,7 @@ kumar now has no reservations
 Traceback (most recent call last):
   File "reservation1.py", line 51, in <module>
     main()
-  File "reservation1.py", line 32, in main
-    del hotdict[p]
-TypeError: unhashable type: 'list'
+  File "reservation1.py", line 30, in main
+    for each in hotdict.keys():
+RuntimeError: dictionary changed size during iteration
 ----------------------------------------

@@ -29,7 +29,7 @@ def main():
 				print(b[1] + " now has no reservations")
 				for each in hotdict.keys():
 					if hotdict.get(each) == b[1]:
-						del hotdict[p]
+						del hotdict[each]
 
 				# print("Room is already reserved")
 		if len(b) == 3:

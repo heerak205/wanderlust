@@ -55,10 +55,9 @@ C:  9, 2: Variable name "b" doesn't conform to snake_case naming style (invalid-
 C: 19, 9: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
 R:  7, 1: Too many nested blocks (6/5) (too-many-nested-blocks)
 C: 30,16: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
-E: 32,18: Using variable 'p' before assignment (used-before-assignment)
 C: 45, 3: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
 R:  1, 0: Too many branches (18/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.56/10 (previous run: -2.50/10, -1.06)
+Your code has been rated at -2.44/10 (previous run: -3.56/10, +1.11)
 
