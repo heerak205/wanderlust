@@ -13,8 +13,8 @@ W: 10, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 11, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 12, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C: 12, 0: Exactly one space required around comparison
-				if len(hotdict)>5:
-                   ^ (bad-whitespace)
+				if roomno>5:
+             ^ (bad-whitespace)
 W: 13, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 14, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 15, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -33,8 +33,8 @@ W: 27, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 30, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 31, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C: 31, 0: Exactly one space required around comparison
-			if len(hotdict)>5:
-                  ^ (bad-whitespace)
+			if roomno>5:
+            ^ (bad-whitespace)
 W: 32, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 33, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 34, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -60,5 +60,5 @@ W:  6, 1: Unused variable 'limit' (unused-variable)
 R:  1, 0: Too many branches (15/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.25/10 (previous run: -3.14/10, -0.11)
+Your code has been rated at -3.25/10 (previous run: -3.25/10, +0.00)
 

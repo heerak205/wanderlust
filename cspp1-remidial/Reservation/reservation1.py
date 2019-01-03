@@ -9,7 +9,7 @@ def main():
 		b = input().split(" ")
 		if len(b) == 2:
 			if b[1] == 'reserve':
-				if len(hotdict)>5:
+				if roomno>5:
 					print("All Rooms are reserved")
 				elif roomno not in hotdict.keys():
 					hotdict.update({roomno:b[1]})
@@ -28,7 +28,7 @@ def main():
 
 				# print("Room is already reserved")
 		if len(b) == 3:
-			if len(hotdict)>5:
+			if roomno>5:
 				print("All Rooms are reserved")
 			elif int(b[2]) not in hotdict.keys():
 				hotdict.update({int(b[2]):b[1]})
