@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -11,18 +11,12 @@ karan 3
 kalyani 4
 rajiv 5
 Your Output: 
-rehana 1
 karan 3
-murthy 2
 rajiv 5
-kalyani 4
-rehana 1
-murthy 2
 karan 3
-kalyani 4
 rajiv 5
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -38,17 +32,10 @@ kumar 5
 Your Output: 
 kiran 2
 murthy 1
-rajiv 3
-kalyani 4
-kumar 5
-All Rooms are reserved
 murthy 1
 kiran 2
-rajiv 3
-kalyani 4
-kumar 5
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -65,18 +52,12 @@ kumar 5
 Your Output: 
 kiran 2
 murthy 1
-rajiv 3
-kalyani 4
-kumar 5
-All Rooms are reserved
-All Rooms are reserved
+alekhya 5
 murthy 1
 kiran 2
-rajiv 3
-kalyani 4
-kumar 5
+alekhya 5
 ----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -94,15 +75,10 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-All Rooms are reserved
+alekhya 5
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-swathi 5
+alekhya 5
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -126,17 +102,10 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
+alekhya 6
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-swathi 5
+alekhya 6
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -177,21 +146,13 @@ Your Output:
 kiran 2
 murthy 1
 kumar 3
-Room is already reserved
 murthy 1
 kiran 2
 kumar 3
-5 4
 alekhya 6
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
-5 4
 alekhya 6
 ----------------------------------------
 ########## Testcase 6: Failed ##########
@@ -227,29 +188,14 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-swathi 5
-All Rooms are reserved
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-swathi 5
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
+alekhya 6
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-swathi 5
+alekhya 6
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -290,31 +236,12 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
-kumar 5
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-kumar 5
-All Rooms are reserved
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-kumar 5
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
+alekhya 6
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-kumar 5
+alekhya 6
 ----------------------------------------

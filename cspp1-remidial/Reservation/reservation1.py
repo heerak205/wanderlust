@@ -3,26 +3,32 @@ def main():
 	i = 0
 	hotdict = {}
 	roomno = 1
+	limit = 1
 	while i<n:
 		# print(i)
 		b = input().split(" ")
 		if len(b) == 2:
-			if roomno>5:
-				print("All Rooms are reserved")
-			elif roomno not in hotdict.keys():
-				hotdict.update({roomno:b[1]})
-				print(hotdict[roomno] + " " + str(roomno))
-				roomno = roomno + 1
-			else:
-				for m in range(1, 6):
-					if m not in hotdict.keys():
-						hotdict.update({m:b[1]})
-						print(hotdict[m] + " " + str(m))
-						roomno = roomno + 1
-						break
+			if b[1] == 'reserve':
+				if len(hotdict)>5:
+					print("All Rooms are reserved")
+				elif roomno not in hotdict.keys():
+					hotdict.update({roomno:b[1]})
+					print(hotdict[roomno] + " " + str(roomno))
+					roomno = roomno + 1
+				else:
+					for m in range(1, 6):
+						if m not in hotdict.keys():
+							hotdict.update({m:b[1]})
+							print(hotdict[m] + " " + str(m))
+							roomno = roomno + 1
+							break
+			if b[1] == "build":
+				roomno = roomno + int(b[1])
+				print("Added" + " " + b[0] + " " + "more rooms")
+
 				# print("Room is already reserved")
 		if len(b) == 3:
-			if roomno>5:
+			if len(hotdict)>5:
 				print("All Rooms are reserved")
 			elif int(b[2]) not in hotdict.keys():
 				hotdict.update({int(b[2]):b[1]})
