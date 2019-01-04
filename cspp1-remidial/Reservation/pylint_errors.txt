@@ -34,15 +34,15 @@ C: 44, 0: Missing function docstring (missing-docstring)
 C: 47, 0: Missing function docstring (missing-docstring)
 W: 48, 4: Using the global statement (global-statement)
 C: 48, 4: Constant name "total" doesn't conform to UPPER_CASE naming style (invalid-name)
-W: 55, 4: Redefining name 'total' from outer scope (line 9) (redefined-outer-name)
 C: 51, 0: Missing function docstring (missing-docstring)
 W: 52, 4: Using the global statement (global-statement)
 C: 52, 4: Constant name "d" doesn't conform to UPPER_CASE naming style (invalid-name)
-E: 55,12: Using variable 'total' before assignment (used-before-assignment)
-C: 57, 0: Missing function docstring (missing-docstring)
-C: 58, 4: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-W: 60, 8: Unused variable 'i' (unused-variable)
+W: 53, 4: Using the global statement (global-statement)
+C: 53, 4: Constant name "total" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 58, 0: Missing function docstring (missing-docstring)
+C: 59, 4: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+W: 61, 8: Unused variable 'i' (unused-variable)
 
------------------------------------
-Your code has been rated at 3.57/10
+------------------------------------------------------------------
+Your code has been rated at 4.23/10 (previous run: 3.57/10, +0.65)
 

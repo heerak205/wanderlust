@@ -240,14 +240,19 @@ kalyani 3
 kumar 4
 swathi 5
 kumar now has no reservations.
-Traceback (most recent call last):
-  File "reservation3.py", line 72, in <module>
-    main()
-  File "reservation3.py", line 71, in main
-    cancelroom(tokens[1])
-  File "reservation3.py", line 55, in cancelroom
-    total = total - 1
-UnboundLocalError: local variable 'total' referenced before assignment
+murthy 1
+kiran 2
+kalyani 3
+swathi 5
+Added 2 more rooms
+alekhya 6
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+swathi 5
+alekhya 6
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -296,12 +301,22 @@ kiran 2
 kalyani 3
 kumar 5
 kumar now has no reservations.
-Traceback (most recent call last):
-  File "reservation3.py", line 72, in <module>
-    main()
-  File "reservation3.py", line 71, in main
-    cancelroom(tokens[1])
-  File "reservation3.py", line 55, in cancelroom
-    total = total - 1
-UnboundLocalError: local variable 'total' referenced before assignment
+murthy 1
+kiran 2
+kalyani 3
+Added 5 more rooms
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
 ----------------------------------------

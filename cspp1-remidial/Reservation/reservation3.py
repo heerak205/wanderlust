@@ -50,6 +50,7 @@ def build(extra):
     print("Added " + str(extra) + " more rooms")
 def cancelroom(person):
     global d
+    global total
     del d[person]
     print(person+" now has no reservations.")
     total = total - 1
