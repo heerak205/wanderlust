@@ -19,8 +19,8 @@ def reserve(person):
         listt.append(countofrooms)
         print(person + " " + str(countofrooms))
         countofrooms += 1
-    else:
-        reserve(person)
+    # else:
+    #     reserve(person)
 def reserveN(person, rn):
     global total
     global listt
