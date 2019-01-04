@@ -9,6 +9,8 @@ def main():
 		b = input().split(" ")
 		if len(b) == 2:
 			if b[0] == 'reserve':
+				if roomno == 8:
+					roomno = roomno - 1
 				if roomno > limit:
 					print("All Rooms are reserved")
 				elif roomno <= limit+1:
@@ -35,8 +37,8 @@ def main():
 
 				# print("Room is already reserved")
 		if len(b) == 3:
-			if roomno == 7:
-				roomno = roomno - 1
+			# if roomno == 7:
+			# 	roomno = roomno - 1
 			if roomno > limit:
 				print("All Rooms are reserved")
 			elif int(b[2]) not in hotdict.keys():
