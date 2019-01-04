@@ -11,10 +11,6 @@ def reserve(person):
     global countofrooms
     global d
     global total
-    countofrooms += 1
-    # print(countofrooms)
-    if countofrooms == 7:
-        countofrooms = countofrooms-1
     if countofrooms >= total:
         print("All Rooms are reserved")
         return
@@ -22,11 +18,13 @@ def reserve(person):
         d[person] = countofrooms
         listt.append(countofrooms)
         print(person + " " + str(countofrooms))
+        countofrooms += 1
     else:
         reserve(person)
 def reserveN(person, rn):
     global total
     global listt
+    global countofrooms
     if rn in listt:
         print("Room is already resverved")
         return
@@ -43,6 +41,7 @@ def reserveN(person, rn):
                 ("All Rooms are reserved")
                 return
     d[person] = int(rn)
+    countofrooms = countofrooms + 1
     print(person + " " + str(rn))
 def display():
     for key, value in sorted(d.items(), key = itemgetter(1)):
@@ -54,9 +53,11 @@ def build(extra):
 def cancelroom(person):
     global d
     global total
+    global countofrooms
     del d[person]
     print(person+" now has no reservations.")
     total = total - 1
+    countofrooms = countofrooms - 1
     return
 def main():
     n = int(input())
