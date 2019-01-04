@@ -12,6 +12,8 @@ def reserve(person):
     global d
     global total
     countofrooms += 1
+    if countofrooms == 8:
+        countofrooms = countofrooms-1
     if countofrooms >= total:
         print("All Rooms are reserved")
         return
