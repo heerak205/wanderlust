@@ -30,10 +30,11 @@ def main():
 				print("Added" + " " + b[1] + " " + "more rooms")
 			if b[0] == "cancel":
 				print(b[1] + " now has no reservations.")
-				for each in hotdict.keys():
+				count = 0
+				hotdict1 = hotdict.copy()
+				for each in hotdict1.keys():
 					if hotdict.get(each) == b[1]:
 						del hotdict[each]
-						break
 
 				# print("Room is already reserved")
 		if len(b) == 3:
