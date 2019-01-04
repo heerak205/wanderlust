@@ -11,7 +11,7 @@ def reserve(person):
     global countofrooms
     global d
     global total
-    countofrooms += 1
+    # countofrooms += 1
     print(countofrooms)
     if countofrooms == 8:
         countofrooms = countofrooms-2
