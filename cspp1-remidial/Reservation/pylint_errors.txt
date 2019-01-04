@@ -64,5 +64,5 @@ W: 33, 4: Unused variable 'count' (unused-variable)
 R:  1, 0: Too many branches (19/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.20/10 (previous run: -2.24/10, +0.04)
+Your code has been rated at -2.20/10 (previous run: -2.20/10, +0.00)
 
