@@ -179,7 +179,7 @@ Your Output:
 kiran 2
 murthy 1
 kumar 3
-Room is already reserved
+All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
@@ -192,15 +192,13 @@ manohar 8
 kumar 9
 murthy 1
 kiran 2
-kumar 3
 manasa 4
-kumar 5
 alekhya 6
 karthik 7
 manohar 8
 kumar 9
 ----------------------------------------
-########## Testcase 6: Passed ##########
+########## Testcase 6: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -242,23 +240,16 @@ kalyani 3
 kumar 4
 swathi 5
 kumar now has no reservations.
-murthy 1
-kiran 2
-kalyani 3
-swathi 5
-Added 2 more rooms
-alekhya 6
-manasa 4
-kumar 7
-murthy 1
-kiran 2
-kalyani 3
-manasa 4
-swathi 5
-alekhya 6
-kumar 7
+Traceback (most recent call last):
+  File "reservation3.py", line 72, in <module>
+    main()
+  File "reservation3.py", line 71, in main
+    cancelroom(tokens[1])
+  File "reservation3.py", line 55, in cancelroom
+    total = total - 1
+UnboundLocalError: local variable 'total' referenced before assignment
 ----------------------------------------
-########## Testcase 7: Passed ##########
+########## Testcase 7: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -303,28 +294,14 @@ kumar 5
 murthy 1
 kiran 2
 kalyani 3
-kumar 4
 kumar 5
 kumar now has no reservations.
-murthy 1
-kiran 2
-kalyani 3
-Added 5 more rooms
-alekhya 6
-manasa 4
-kumar 5
-karthik 7
-manohar 8
-swetha 9
-reddy 10
-murthy 1
-kiran 2
-kalyani 3
-manasa 4
-kumar 5
-alekhya 6
-karthik 7
-manohar 8
-swetha 9
-reddy 10
+Traceback (most recent call last):
+  File "reservation3.py", line 72, in <module>
+    main()
+  File "reservation3.py", line 71, in main
+    cancelroom(tokens[1])
+  File "reservation3.py", line 55, in cancelroom
+    total = total - 1
+UnboundLocalError: local variable 'total' referenced before assignment
 ----------------------------------------
