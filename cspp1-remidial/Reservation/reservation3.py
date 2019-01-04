@@ -14,7 +14,7 @@ def reserve(person):
     countofrooms += 1
     print(countofrooms)
     if countofrooms == 8:
-        countofrooms = countofrooms-1
+        countofrooms = countofrooms-2
     if countofrooms >= total:
         print("All Rooms are reserved")
         return
