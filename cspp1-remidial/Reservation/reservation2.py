@@ -16,7 +16,8 @@ def main():
 				elif roomno <= limit+1:
 					for m in range(1, limit+1):
 						if m not in hotdict.keys():
-							hotdict.update({m:b[1]})
+							# hotdict.update({m:b[1]})
+							hotdict[m] = b[1]
 							print(hotdict[m] + " " + str(m))
 							roomno = roomno + 1
 							break
