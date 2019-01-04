@@ -48,5 +48,5 @@ C: 63, 4: Variable name "n" doesn't conform to snake_case naming style (invalid-
 W: 65, 8: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.92/10 (previous run: 4.00/10, -0.08)
+Your code has been rated at 3.84/10 (previous run: 3.92/10, -0.08)
 

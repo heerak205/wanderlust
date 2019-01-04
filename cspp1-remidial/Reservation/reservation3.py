@@ -57,7 +57,7 @@ def cancelroom(person):
     del d[person]
     print(person+" now has no reservations.")
     total = total - 1
-    countofrooms = countofrooms - 1
+    # countofrooms = countofrooms - 1
     return
 def main():
     n = int(input())
