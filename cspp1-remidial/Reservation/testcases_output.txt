@@ -104,7 +104,7 @@ kalyani 3
 kumar 4
 swathi 5
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -131,14 +131,21 @@ kumar 4
 swathi 5
 Added 2 more rooms
 alekhya 6
-manasa 7
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-manasa 7
+Traceback (most recent call last):
+  File "reservation3.py", line 76, in <module>
+    main()
+  File "reservation3.py", line 67, in main
+    reserve(tokens[1])
+  File "reservation3.py", line 26, in reserve
+    reserve(person)
+  File "reservation3.py", line 26, in reserve
+    reserve(person)
+  File "reservation3.py", line 26, in reserve
+    reserve(person)
+  [Previous line repeated 993 more times]
+  File "reservation3.py", line 16, in reserve
+    if countofrooms == 7:
+RecursionError: maximum recursion depth exceeded in comparison
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -187,7 +194,6 @@ Added 5 more rooms
 alekhya 6
 manasa 4
 kumar 5
-karthik 7
 Traceback (most recent call last):
   File "reservation3.py", line 76, in <module>
     main()
@@ -201,7 +207,7 @@ Traceback (most recent call last):
     reserve(person)
   [Previous line repeated 993 more times]
   File "reservation3.py", line 16, in reserve
-    if countofrooms == 8:
+    if countofrooms == 7:
 RecursionError: maximum recursion depth exceeded in comparison
 ----------------------------------------
 ########## Testcase 6: Failed ##########
@@ -252,13 +258,21 @@ kalyani 3
 swathi 5
 Added 2 more rooms
 alekhya 6
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-swathi 5
-alekhya 6
+Traceback (most recent call last):
+  File "reservation3.py", line 76, in <module>
+    main()
+  File "reservation3.py", line 67, in main
+    reserve(tokens[1])
+  File "reservation3.py", line 26, in reserve
+    reserve(person)
+  File "reservation3.py", line 26, in reserve
+    reserve(person)
+  File "reservation3.py", line 26, in reserve
+    reserve(person)
+  [Previous line repeated 993 more times]
+  File "reservation3.py", line 16, in reserve
+    if countofrooms == 7:
+RecursionError: maximum recursion depth exceeded in comparison
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -312,7 +326,6 @@ kiran 2
 kalyani 3
 Added 5 more rooms
 alekhya 6
-manasa 7
 Traceback (most recent call last):
   File "reservation3.py", line 76, in <module>
     main()
@@ -326,6 +339,6 @@ Traceback (most recent call last):
     reserve(person)
   [Previous line repeated 993 more times]
   File "reservation3.py", line 16, in reserve
-    if countofrooms == 8:
+    if countofrooms == 7:
 RecursionError: maximum recursion depth exceeded in comparison
 ----------------------------------------
