@@ -36,7 +36,7 @@ def main():
 				# print("Room is already reserved")
 		if len(b) == 3:
 			if roomno = 7:
-				roomno = 6
+				roomno = roomno - 1
 			if roomno > limit:
 				print("All Rooms are reserved")
 			elif int(b[2]) not in hotdict.keys():
