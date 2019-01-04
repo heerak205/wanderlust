@@ -29,7 +29,7 @@ def main():
 				limit = limit + int(b[1])
 				print("Added" + " " + b[1] + " " + "more rooms")
 			if b[0] == "cancel":
-				print(b[1] + " now has no reservations")
+				print(b[1] + " now has no reservations.")
 				for each in hotdict.keys():
 					if hotdict.get(each) == b[1]:
 						del hotdict[each]
