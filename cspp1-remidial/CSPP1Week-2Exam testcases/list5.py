@@ -13,12 +13,15 @@ def main():
 				while j<len(list1[i]):
 					if type(list1[i][j]) == list:
 						k = 0
+						print(list1[i][j])
 						while k<len(list1[i][j]):
 							if type(list1[i][j][k]) == list:
 								l = 0
+								print(list1[i][j][k])
 								while l<len(list1[i][j][k]):
 									if type(list1[i][j][k][l]) == list:
 										m = 0
+										print(list1[i][j][k][l])
 										if type(list1[i][j][k][l][m]) == int:
 												sum = sum + list1[i][j][k][l][m]
 												break
@@ -26,6 +29,7 @@ def main():
 											while m<len(list1[i][j][k][l]):
 												if type(list1[i][j][k][l][m]) == list:
 													n = 0
+													print(list1[i][j][k][l][m])
 													while n<len(list1[i][j][k][l][m]):
 														if type(list1[i][j][k][l][m][n]) == list:
 															o = 0
@@ -34,12 +38,18 @@ def main():
 																	p = 0
 																	while p<len(list1[i][j][k][l][m][n][o]):
 																		sum = sum + list1[i][j][k][l][m][n][o][p]
+																		# print(list1[i][j][k][l][m][n][o][p])
 																		p = p + 1
-																sum = sum + list1[i][j][k][l][m][n][o]
+																else:
+																	sum = sum + list1[i][j][k][l][m][n][o]
 																o = o + 1
-														sum = sum + list1[i][j][k][l][m][n]
+														# print(list1[i][j][k][l][m][n])
+														if type(list1[i][j][k][l][m][n]) != str:
+															sum = sum + list1[i][j][k][l][m][n]
 														n = n + 1
-											sum = sum + list1[i][j][k][l][m]
+											# print(list1[i][j][k][l][m])
+											if type(list1[i][j][k][l][m]) != str:
+												sum = sum + list1[i][j][k][l][m]
 											m = m + 1
 									if type(list1[i][j][k]) != str:
 										sum = sum + list1[i][j][k][l]

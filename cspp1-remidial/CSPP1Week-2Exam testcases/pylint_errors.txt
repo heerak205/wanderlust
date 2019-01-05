@@ -1,4 +1,4 @@
-************* Module list5
+************* Module list4
 W:  2, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  3, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  4, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -37,7 +37,7 @@ W: 24, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 25, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 26, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C: 26, 0: Exactly one space required around comparison
-											while m<len(list1[i][j][k][l]):
+											while m<len(list1[i][j][k][l][m]):
                   ^ (bad-whitespace)
 W: 27, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 28, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -49,13 +49,13 @@ W: 30, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 31, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 32, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C: 32, 0: Exactly one space required around comparison
-															while o<len(list1[i][j][k][l][m][n]):
+															while o<len(list1[i][j][k][l][m]):
                       ^ (bad-whitespace)
 W: 33, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 34, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 35, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C: 35, 0: Exactly one space required around comparison
-																	while p<len(list1[i][j][k][l][m][n][o]):
+																	while p<len(list1[i][j][k][l][m][o]):
                         ^ (bad-whitespace)
 W: 36, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 37, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -120,6 +120,6 @@ C: 56, 7: Using type() instead of isinstance() for a typecheck. (unidiomatic-typ
 R:  1, 0: Too many branches (25/12) (too-many-branches)
 R:  1, 0: Too many statements (51/50) (too-many-statements)
 
-------------------------------------
-Your code has been rated at -7.33/10
+--------------------------------------------------------------------
+Your code has been rated at -7.33/10 (previous run: -7.33/10, +0.00)
 
