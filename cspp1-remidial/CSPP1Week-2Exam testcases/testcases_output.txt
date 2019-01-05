@@ -14,12 +14,12 @@ Your Output:
 5.5
 1
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 1
 6
 Your Output: 
-0
+1
 6
 ----------------------------------------
 ########## Testcase 3: Passed ##########
@@ -38,15 +38,11 @@ Your Output:
 0
 8
 ----------------------------------------
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 5654134.9
 10
 Your Output: 
-Traceback (most recent call last):
-  File "list4.py", line 66, in <module>
-    main()
-  File "list4.py", line 45, in main
-    sum = sum + list1[i][j][k][l]
-TypeError: unsupported operand type(s) for +: 'float' and 'str'
+5654134.9
+10
 ----------------------------------------
