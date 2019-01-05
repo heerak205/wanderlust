@@ -30,6 +30,11 @@ def main():
 														if type(list1[i][j][k][l][m]) == list:
 															o = 0
 															while o<len(list1[i][j][k][l][m]):
+																if type(list1[i][j][k][l][m][o]) == list:
+																	p = 0
+																	while p<len(list1[i][j][k][l][m][o]):
+																		sum = sum + list1[i][j][k][l][m][o][p]
+																		p = p + 1
 																sum = sum + list1[i][j][k][l][m][o]
 																o = o + 1
 														sum = sum + list1[i][j][k][l][m][n]
