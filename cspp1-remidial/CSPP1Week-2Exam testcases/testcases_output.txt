@@ -19,12 +19,8 @@ Expected Output:
 1
 6
 Your Output: 
-Traceback (most recent call last):
-  File "list3.py", line 40, in <module>
-    main()
-  File "list3.py", line 19, in main
-    sum = sum + list1[i][j][k][l]
-TypeError: unsupported operand type(s) for +: 'int' and 'list'
+0
+6
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -32,23 +28,19 @@ Expected Output:
 4
 Your Output: 
 Traceback (most recent call last):
-  File "list3.py", line 40, in <module>
+  File "list3.py", line 42, in <module>
     main()
-  File "list3.py", line 19, in main
+  File "list3.py", line 21, in main
     sum = sum + list1[i][j][k][l]
 TypeError: unsupported operand type(s) for +: 'int' and 'list'
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 0
 8
 Your Output: 
-Traceback (most recent call last):
-  File "list3.py", line 40, in <module>
-    main()
-  File "list3.py", line 19, in main
-    sum = sum + list1[i][j][k][l]
-TypeError: unsupported operand type(s) for +: 'int' and 'list'
+0
+8
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -56,9 +48,9 @@ Expected Output:
 10
 Your Output: 
 Traceback (most recent call last):
-  File "list3.py", line 40, in <module>
+  File "list3.py", line 42, in <module>
     main()
-  File "list3.py", line 19, in main
+  File "list3.py", line 21, in main
     sum = sum + list1[i][j][k][l]
 TypeError: unsupported operand type(s) for +: 'float' and 'str'
 ----------------------------------------
