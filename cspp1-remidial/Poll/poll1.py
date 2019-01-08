@@ -46,10 +46,14 @@ def main():
 	# print(adict)
 	# for each in adict:
 	# 	print(("Highest number of votes for question : Who should be the next Prime Minister? : ")+ adict[each])
-	i = 0
-	while i<len(adict):
-		print(adict[i])
-		i = i + 1
+	for each in adict:
+		if each == 1:
+			print(("Highest number of votes for question : Who should be the next Prime Minister? : ")+ adict[each])
+		if each == 2:
+			print(("Highest number of votes for question : Who will be the next cm for Telangana? : ")+ adict[each])
+		if each == 3:
+			print(("Highest number of votes for question : Who will be the next cm for AP? : ")+ adict[each])
+
 
 if __name__ == '__main__':
 	main()
