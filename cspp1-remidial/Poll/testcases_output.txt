@@ -1,26 +1,37 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 Your Output: 
-Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
+Traceback (most recent call last):
+  File "poll1.py", line 55, in <module>
+    main()
+  File "poll1.py", line 17, in main
+    major = Counter(partlist)
+NameError: name 'Counter' is not defined
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 Highest number of votes for question : Who will be the next cm for Telangana? : KCR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 Your Output: 
-Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
-Highest number of votes for question : Who will be the next cm for Telangana? : KCR
-Highest number of votes for question : Who will be the next cm for AP? : CBN
+Traceback (most recent call last):
+  File "poll1.py", line 55, in <module>
+    main()
+  File "poll1.py", line 17, in main
+    major = Counter(partlist)
+NameError: name 'Counter' is not defined
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
 Highest number of votes for question : Who will be the next cm for Telangana? : KTR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 Your Output: 
-Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
-Highest number of votes for question : Who will be the next cm for Telangana? : KTR
-Highest number of votes for question : Who will be the next cm for AP? : CBN
+Traceback (most recent call last):
+  File "poll1.py", line 55, in <module>
+    main()
+  File "poll1.py", line 17, in main
+    major = Counter(partlist)
+NameError: name 'Counter' is not defined
 ----------------------------------------
