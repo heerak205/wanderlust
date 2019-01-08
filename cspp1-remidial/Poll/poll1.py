@@ -46,10 +46,10 @@ def main():
 				print("Highest number of votes for question : Who will be the next cm for Telangana? : "+each)
 	list3 = []
 	if len(adict3) != 0:
-		for key, value in adict2.items():
-			list2.append(value)
-		for each in adict2:
-			if adict2[each] == max(list2):
+		for key, value in adict3.items():
+			list3.append(value)
+		for each in adict3:
+			if adict3[each] == max(list3):
 				print("Highest number of votes for question : Who will be the next cm for AP? : "+each)
 
 if __name__ == '__main__':

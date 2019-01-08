@@ -80,9 +80,8 @@ C: 24, 2: Variable name "p" doesn't conform to snake_case naming style (invalid-
 C: 41, 4: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
 C: 48, 4: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
 W:  6, 1: Unused variable 'quesdict' (unused-variable)
-W: 47, 1: Unused variable 'list3' (unused-variable)
 R:  2, 0: Too many branches (19/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.15/10 (previous run: -4.34/10, +1.19)
+Your code has been rated at -2.96/10 (previous run: -3.15/10, +0.19)
 
