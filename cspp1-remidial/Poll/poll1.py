@@ -1,3 +1,4 @@
+from collections import Counter
 def main():
 	a = int(input())
 	b = a*5

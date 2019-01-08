@@ -1,5 +1,4 @@
 ************* Module poll1
-W:  2, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  3, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  4, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  5, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -7,17 +6,17 @@ W:  6, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  7, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  8, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  9, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C:  9, 0: Exactly one space required before assignment
+W: 10, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 10, 0: Exactly one space required before assignment
 	noofpart= int(input())
          ^ (bad-whitespace)
-W: 10, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 11, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 12, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 13, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 13, 0: Exactly one space required around comparison
+W: 14, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 14, 0: Exactly one space required around comparison
 	while i<totpart:
         ^ (bad-whitespace)
-W: 14, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 15, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 16, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 17, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -26,26 +25,26 @@ W: 19, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 20, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 21, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 22, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 22, 0: Exactly one space required after comma
+W: 23, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 23, 0: Exactly one space required after comma
 	for key,value in major.items():
         ^ (bad-whitespace)
-W: 23, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 24, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 25, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 25, 0: No space allowed before :
+W: 26, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 26, 0: No space allowed before :
 			if int(p[0]) == 1 :
                      ^ (bad-whitespace)
-W: 26, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 27, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 27, 0: No space allowed before :
+W: 28, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 28, 0: No space allowed before :
 			elif int(p[0]) == 2 :
                        ^ (bad-whitespace)
-W: 28, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 29, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 29, 0: No space allowed before :
+W: 30, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 30, 0: No space allowed before :
 			elif int(p[0]) == 3 :
                        ^ (bad-whitespace)
-W: 30, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 31, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 32, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 33, 0: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -68,22 +67,22 @@ W: 49, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 50, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 51, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 52, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 55, 0: Final newline missing (missing-final-newline)
-W: 55, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 53, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 56, 0: Final newline missing (missing-final-newline)
+W: 56, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C:  1, 0: Missing module docstring (missing-docstring)
-C:  1, 0: Missing function docstring (missing-docstring)
-R:  1, 0: Too many local variables (22/15) (too-many-locals)
-C:  2, 1: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
-C:  3, 1: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
-C:  7, 2: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-E: 17, 9: Undefined variable 'Counter' (undefined-variable)
-C: 23, 2: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
-C: 40, 4: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-C: 47, 4: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-W:  5, 1: Unused variable 'quesdict' (unused-variable)
-W: 46, 1: Unused variable 'list3' (unused-variable)
-R:  1, 0: Too many branches (19/12) (too-many-branches)
+C:  2, 0: Missing function docstring (missing-docstring)
+R:  2, 0: Too many local variables (22/15) (too-many-locals)
+C:  3, 1: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:  4, 1: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:  8, 2: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 24, 2: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 41, 4: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C: 48, 4: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:  6, 1: Unused variable 'quesdict' (unused-variable)
+W: 47, 1: Unused variable 'list3' (unused-variable)
+R:  2, 0: Too many branches (19/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.34/10 (previous run: -2.71/10, -1.63)
+Your code has been rated at -3.15/10 (previous run: -4.34/10, +1.19)
 
