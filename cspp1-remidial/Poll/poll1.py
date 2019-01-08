@@ -44,9 +44,12 @@ def main():
 			if adict.get(int(each[0])) == each[1]:
 				adict[int(each[0])] = each[1]
 	# print(adict)
-	for each in adict:
-		print(("Highest number of votes for question : Who should be the next Prime Minister? : ")+ adict[each])
-
+	# for each in adict:
+	# 	print(("Highest number of votes for question : Who should be the next Prime Minister? : ")+ adict[each])
+	i = 0
+	while i<len(adict):
+		print(adict[i])
+		i = i + 1
 
 if __name__ == '__main__':
 	main()

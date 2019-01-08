@@ -46,11 +46,16 @@ W: 42, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 43, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 44, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 45, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W: 47, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 48, 0: Line too long (106/100) (line-too-long)
-W: 48, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-C: 52, 0: Final newline missing (missing-final-newline)
+C: 48, 0: Line too long (108/100) (line-too-long)
+W: 49, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 50, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 50, 0: Exactly one space required around comparison
+	while i<len(adict):
+        ^ (bad-whitespace)
+W: 51, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 52, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 55, 0: Final newline missing (missing-final-newline)
+W: 55, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C:  1, 0: Missing module docstring (missing-docstring)
 C:  1, 0: Missing function docstring (missing-docstring)
 R:  1, 0: Too many local variables (17/15) (too-many-locals)
@@ -61,6 +66,6 @@ C: 21, 1: Variable name "d" doesn't conform to snake_case naming style (invalid-
 C: 24, 2: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
 W: 19, 1: Unused variable 'queslist1' (unused-variable)
 
-------------------------------------
-Your code has been rated at -3.10/10
+--------------------------------------------------------------------
+Your code has been rated at -3.18/10 (previous run: -3.10/10, -0.09)
 
