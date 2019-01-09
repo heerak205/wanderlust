@@ -44,7 +44,7 @@ def main():
 			scorelist.append(answerdict[optionslist[i]][1])
 		i = i + 1
 	global choice
-	choice = "choice 1 choice 2	choice 3 choice 4"
+	choice = "choice 1	choice 2	choice 3	choice 4"
 	b = input()
 	# print(rightlist)
 	# print(wronglist)
