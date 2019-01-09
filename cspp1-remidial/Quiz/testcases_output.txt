@@ -62,6 +62,7 @@ question text 3
  Correct Answer! - Marks Awarded: 3
 question text 4
  Correct Answer! - Marks Awarded: 4
+[1, 2, 3, 4]
 Total Score: 10
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -128,7 +129,8 @@ question text 3
  Wrong Answer! - Penalty: -1
 question text 4
  Wrong Answer! - Penalty: -4
-Total Score: 10
+[-3, -2, -1, -4]
+Total Score: -10
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -194,7 +196,8 @@ question text 3
  Wrong Answer! - Penalty: -4
 question text 4
  Wrong Answer! - Penalty: -4
-Total Score: 4
+[1, -4, -4, -4]
+Total Score: -11
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -261,7 +264,7 @@ question j
 Total Score: 3
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 26, in main
     e = optionslist.append(int(d[1]))
@@ -287,7 +290,7 @@ question text 1
 Total Score: -4
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 43, in main
     rightlist.append("Wrong Answer! - Penalty: "+ str(answerdict[optionslist[i]][1]))
@@ -307,7 +310,7 @@ Quiz does not have questions
 |--------------|
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 38, in main
     if optionslist[i] == keyslist[i]:
@@ -327,7 +330,7 @@ Error! Malformed question
 |--------------|
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 17, in main
     markslist.append(int(b[4]))
@@ -347,7 +350,7 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 43, in main
     rightlist.append("Wrong Answer! - Penalty: "+ str(answerdict[optionslist[i]][1]))
@@ -367,7 +370,7 @@ trick question  does not have enough answer choices
 |--------------|
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 43, in main
     rightlist.append("Wrong Answer! - Penalty: "+ str(answerdict[optionslist[i]][1]))
@@ -393,7 +396,7 @@ question about sony
 Total Score: 1
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 43, in main
     rightlist.append("Wrong Answer! - Penalty: "+ str(answerdict[optionslist[i]][1]))
@@ -413,7 +416,7 @@ Invalid max marks for question about sony
 |--------------|
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 43, in main
     rightlist.append("Wrong Answer! - Penalty: "+ str(answerdict[optionslist[i]][1]))
@@ -433,7 +436,7 @@ Invalid penalty for question about sony
 |--------------|
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 43, in main
     rightlist.append("Wrong Answer! - Penalty: "+ str(answerdict[optionslist[i]][1]))
@@ -453,7 +456,7 @@ Error! Malformed question
 |--------------|
 Your Output: 
 Traceback (most recent call last):
-  File "quiz.py", line 92, in <module>
+  File "quiz.py", line 93, in <module>
     main()
   File "quiz.py", line 43, in main
     rightlist.append("Wrong Answer! - Penalty: "+ str(answerdict[optionslist[i]][1]))

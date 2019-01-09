@@ -41,7 +41,7 @@ def main():
 			scorelist.append(answerdict[optionslist[i]][0])
 		else:
 			rightlist.append("Wrong Answer! - Penalty: "+ str(answerdict[optionslist[i]][1]))
-			scorelist.append(answerdict[optionslist[i]][0])
+			scorelist.append(answerdict[optionslist[i]][1])
 		i = i + 1
 	global choice
 	choice = "choice 1	choice 2	choice 3	choice 4"
@@ -80,6 +80,7 @@ def main():
 	print(" "+ rightlist[3])
 	sum = 0
 	i = 0
+	print(scorelist)
 	while i<len(scorelist):
 		sum = sum+scorelist[i]
 		i = i + 1
