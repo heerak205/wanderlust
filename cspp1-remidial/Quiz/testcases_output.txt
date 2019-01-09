@@ -62,7 +62,6 @@ question text 3
  Correct Answer! - Marks Awarded: 3
 question text 4
  Correct Answer! - Marks Awarded: 4
-[1, 2, 3, 4]
 Total Score: 10
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -129,7 +128,6 @@ question text 3
  Wrong Answer! - Penalty: -1
 question text 4
  Wrong Answer! - Penalty: -4
-[-3, -2, -1, -4]
 Total Score: -10
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -196,7 +194,6 @@ question text 3
  Wrong Answer! - Penalty: -4
 question text 4
  Wrong Answer! - Penalty: -4
-[1, -4, -4, -4]
 Total Score: -11
 ----------------------------------------
 ########## Testcase 3: Failed ##########

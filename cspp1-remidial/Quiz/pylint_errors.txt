@@ -74,7 +74,6 @@ W: 79, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 80, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 81, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 82, 0: Found indentation with tabs instead of spaces (mixed-indentation)
-W: 83, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W: 84, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 C: 84, 0: Exactly one space required around comparison
 	while i<len(scorelist):
@@ -109,8 +108,8 @@ C: 48, 1: Variable name "b" doesn't conform to snake_case naming style (invalid-
 W: 26, 2: Unused variable 'e' (unused-variable)
 W: 27, 1: Unused variable 'f' (unused-variable)
 W: 30,10: Unused variable 'value' (unused-variable)
-R:  1, 0: Too many statements (73/50) (too-many-statements)
+R:  1, 0: Too many statements (72/50) (too-many-statements)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.54/10 (previous run: -3.59/10, +0.05)
+Your code has been rated at -3.59/10 (previous run: -3.54/10, -0.05)
 

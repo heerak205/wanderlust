@@ -80,7 +80,7 @@ def main():
 	print(" "+ rightlist[3])
 	sum = 0
 	i = 0
-	print(scorelist)
+	# print(scorelist)
 	while i<len(scorelist):
 		sum = sum+scorelist[i]
 		i = i + 1
