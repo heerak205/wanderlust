@@ -111,5 +111,5 @@ W: 30,10: Unused variable 'value' (unused-variable)
 R:  1, 0: Too many statements (72/50) (too-many-statements)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.59/10 (previous run: -3.54/10, -0.05)
+Your code has been rated at -3.59/10 (previous run: -3.59/10, +0.00)
 
