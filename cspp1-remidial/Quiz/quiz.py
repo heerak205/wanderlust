@@ -85,9 +85,5 @@ def main():
 		sum = sum+scorelist[i]
 		i = i + 1
 	print("Total Score: "+str(sum))	
-
-
-
-
 if __name__ == '__main__':
 	main()
