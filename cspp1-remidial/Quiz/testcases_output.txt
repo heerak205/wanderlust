@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -42,17 +42,15 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
-
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
-
 
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
 
-
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -66,7 +64,7 @@ question text 4
  Correct Answer! - Marks Awarded: 4
 Total Score: 10
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -110,17 +108,15 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
-
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
-
 
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
 
-
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -134,7 +130,7 @@ question text 4
  Wrong Answer! - Penalty: -1
 Total Score: -10
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -178,17 +174,15 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
-
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
-
 
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
 
-
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -276,7 +270,7 @@ Traceback (most recent call last):
     e = optionslist.append(int(inp[1]))
 ValueError: invalid literal for int() with base 10: 'c'
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -304,6 +298,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -382,6 +377,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -411,6 +407,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -446,6 +443,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -475,6 +473,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -504,6 +503,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -533,6 +533,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|

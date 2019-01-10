@@ -78,18 +78,18 @@ def main():
 			i = 0
 			while i < numofques:
 				print(questextlist[i])
-				print(choice)
+				print(choice + "\n")
 				i = i + 1
-				if i<numofques:
-					print("\n")
+				# if i<numofques:
+					# print("\n")
 		else:
 			i = 0
 			while i < numofques:
 				print(questextlist2[i])
-				print(choice1)
+				print(choice1 + "\n")
 				i = i + 1
-				if i<numofques:
-					print("\n")
+				# if i<numofques:
+					# print("\n")
 
 	questextlist1 = ["question text 1", "question text 2", "question text 3", "question text 4"]
 	questextlist3 = ["question a", "question b", "question c", "question d", "question e", "question f", "question g", "question h", "question i", "question j"]
