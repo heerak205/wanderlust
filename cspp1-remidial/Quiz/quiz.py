@@ -81,7 +81,7 @@ def main():
 				print(choice)
 				i = i + 1
 				if i<numofques:
-					print(" ")
+					print("\n")
 		else:
 			i = 0
 			while i < numofques:
@@ -89,7 +89,7 @@ def main():
 				print(choice1)
 				i = i + 1
 				if i<numofques:
-					print(" ")
+					print("\n")
 
 	questextlist1 = ["question text 1", "question text 2", "question text 3", "question text 4"]
 	questextlist3 = ["question a", "question b", "question c", "question d", "question e", "question f", "question g", "question h", "question i", "question j"]

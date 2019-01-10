@@ -163,5 +163,5 @@ R:  1, 0: Too many branches (23/12) (too-many-branches)
 R:  1, 0: Too many statements (91/50) (too-many-statements)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.75/10 (previous run: -3.59/10, -1.16)
+Your code has been rated at -4.75/10 (previous run: -4.75/10, +0.00)
 
