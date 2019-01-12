@@ -25,9 +25,9 @@ Expected Output:
 Invalid Points
 Your Output: 
 Traceback (most recent call last):
-  File "quizreport1.py", line 50, in <module>
+  File "quizreport.py", line 50, in <module>
     main()
-  File "quizreport1.py", line 21, in main
+  File "quizreport.py", line 21, in main
     totmrk = totmrk + int(queslist[j][4])
 ValueError: invalid literal for int() with base 10: 'a'
 ----------------------------------------
