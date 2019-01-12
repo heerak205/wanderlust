@@ -50,6 +50,6 @@ C:  1, 0: Missing function docstring (missing-docstring)
 C: 38, 0: Missing function docstring (missing-docstring)
 C: 42, 1: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
 
-------------------------------------
-Your code has been rated at -1.43/10
+--------------------------------------------------------------------
+Your code has been rated at -1.43/10 (previous run: -1.43/10, +0.00)
 
