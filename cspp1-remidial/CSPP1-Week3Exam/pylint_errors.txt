@@ -1,4 +1,4 @@
-************* Module quizreport1
+************* Module quizreport
 W:  2, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  3, 0: Found indentation with tabs instead of spaces (mixed-indentation)
 W:  4, 0: Found indentation with tabs instead of spaces (mixed-indentation)
